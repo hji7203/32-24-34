@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+
+  <script type="text/javascript" src = "prac/js/jquery-1.11.1.min.js"></script>
+  <link rel = "stylesheet" type= "text/css" href = "prac/css/bootstrap.min.css">
+  <script type="text/javascript" src = "prac/js/bootstrap.min.js"></script>
+  <link rel = "stylesheet" type= "text/css" href = "prac/css/style.css">
+  <link rel = "stylesheet" type= "text/css" href = "prac/css/20140707.css">
+  <link href='http://fonts.googleapis.com/css?family=Shadows+Into+Light' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="prac/js/jquery.arctext.js"></script>
+  <script type="text/javascript" src = "prac/js/20140707.js"></script>
+</head>
+<body>
+
+	<div class="container">
+		<div class="row">
+			<!-- Button trigger modal -->
+      <button class="btn btn-primary btn-lg text-center" data-toggle="modal" data-target="#myModal">
+        모달
+      </button>
+
+      <!-- Modal -->
+      <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+              <h4 class="modal-title" id="myModalLabel">지인이의 모달 </h4>
+            </div>
+            <div class="modal-body">
+              <ul>
+                <li>
+                </li>
+              </ul>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              <button type="button" class="btn btn-primary">Save changes</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+  <div class="dropdown">
+    <a id="dLabel" role="button" data-toggle="dropdown" data-target="#" href="/page.html">
+      누르세요. <span class="caret"></span>
+    </a>
+
+
+    <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+      <li>지인이바보 </li>
+      <li>히히 </li>
+    </ul>
+  </div>
+
+  <div class="panel-group" id="accordion">
+    <div class="panel panel-default">
+      <div class="panel-heading">
+        <h4 class="panel-title">
+          <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">
+            Collapsible Group Item #1
+          </a>
+        </h4>
+      </div>
+      <div id="collapseOne" class="panel-collapse collapse in">
+        <div class="panel-body">
+          Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+        </div>
+      </div>
+    </div>
+
+    <button id = "wldls">Click to fade in boxes</button>
+    <br><br>
+    <div id="div1" style="width:80px;height:80px;display:none;background-color:#ff0055;"></div><br>
+    <div id="div2" style="width:80px;height:80px;display:none;background-color:#4b9484;"></div><br>
+    <div id="div3" style="width:80px;height:80px;display:none;background-color:#006380;"></div>
+
+    <button type="button" class="btn btn-lg btn-danger" data-toggle="popover" title="Jeein" data-content="Jeein is babo mungchungE because I can't do jQuery">popover</button>
+
+    <section class="sub" id="sub1">
+      <div class="example">
+        <h3 id="example1">hello world</h3>
+      </div>
+      <div class="code">
+        <h4>hello world!</h4>
+      </div>
+      <div class="clr"></div>
+    </section>
+    <div class="example">
+          <h3 id="example4">See me change</h3>
+        </div>
+
+  </body>
+  </html>

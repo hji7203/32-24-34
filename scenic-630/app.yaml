@@ -1,0 +1,69 @@
+application: scenic-630
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+# HTML PAGES
+# ex) http://project-id.appspot.com/
+- url: /
+  static_files: index.html
+  upload: index.html
+  mime_type: text/html
+
+# ex) http://project-id.appspot.com/idea.html
+- url: /idea1.html
+  static_files: idea1.html
+  upload: idea1.html
+  mime_type: text/html
+
+- url: /maps.html
+  static_files: maps.html
+  upload: maps.html
+  mime_type: text/html
+
+# UPLOAD STATIC FILE
+- url: /static/css
+  static_dir: static/css
+  mime_type: text/css
+
+- url: /static/js
+  static_dir: static/js
+  mime_type: text/javascript
+
+#- url: /static/fonts
+#  static_dir: static/fonts
+#  mime_type: text/font
+
+- url: /(.*).ttf
+  static_files: \1.ttf
+  upload: (.*).ttf
+  mime_type: font/ttf
+
+- url: /(.*).otf
+  static_files: \1.otf
+  upload: (.*).otf
+  mime_type: font/opentype
+
+- url: /(.*).woff
+  static_files: \1.woff
+  upload: (.*).woff
+  mime_type: application/font-woff
+
+- url: /(.*).eot
+  static_files: \1.eot
+  upload: (.*).eot
+  mime_type: application/vnd.ms-fontobject
+
+# UPLOAD RESOURCE [img: .png | audio: .mp3 | video: .mp4]
+- url: /static/res/img
+  static_dir: static/res/img
+  mime_type: image/png
+
+- url: /static/res/audio
+  static_dir: static/res/audio
+  mime_type: audio/mp3
+
+- url: /static/res/video
+  static_dir: static/res/video
+  mime_type: audio/mp4
