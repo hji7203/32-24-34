@@ -1,0 +1,5 @@
+Answer: ['5', '7', '1', '4']
+Your Input: 5714
+4S 0B
+Ding Ding Dang
+You did 1 times to correct answer.
