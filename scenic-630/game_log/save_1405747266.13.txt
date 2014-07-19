@@ -1,0 +1,10 @@
+Answer: ['1', '2', '9', '5']
+Your Input: 1295
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.
+Answer: ['3', '9', '2', '1']
+Your Input: 3921
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.

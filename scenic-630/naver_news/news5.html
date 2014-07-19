@@ -1,0 +1,1228 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+<head>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
+<link href="/css/Main01.css?date=20140709" rel="stylesheet" type="text/css">
+<script src="/comm/main.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js" type="text/javascript"></script>
+<script src="/comm/jquery-migrate-1.1.1.min.js" type="text/javascript"></script>
+<script src="/comm/jquery.rolling.js" type="text/javascript"></script>
+<script src="/comm/jquery.smartPop.js" type="text/javascript"></script>
+<link href="/css/jquery.smartPop.css" rel="stylesheet">
+<script type="text/javascript">
+$(document).ready(function() {
+		$('#photocontest').click(function() {
+				$.smartPop.open({ width: 970, height: 600, padding: 0, border:0, url: '/service/picture_contest/contest.html' });
+		});
+});
+</script>
+<script charset="utf-8" src="http://101.livere.co.kr/js/livere8_lib.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+	function FLsubmit()
+	{
+		var dj = document.forms.news_login
+		if(dj.userid.value == "" ){
+			alert("아이디를 입력하여 주십시오.")
+			dj.userid.focus();
+			return;
+		}
+		if(dj.password.value == "" ){
+			alert("암호를 입력하여 주십시오.")
+			dj.password.focus();
+			return;
+		}
+		//document.hiddeframe.src='http://www.kookje.co.krkookje/admin/login_check.asp?userid='+dj.userid.value+'&password='+dj.password.value+'&flag=';
+		dj.submit();
+	}
+	function check()
+	{
+		var df = document.forms.news_commnetInsert
+		if (df.comment.value==""){
+			alert ("내용을 입력하여 주십시오.");
+			df.comment.focus();
+		}else if (df.comment.value.length < 10 ){
+			alert ("내용은 10자 이상 입력해 주세요.");
+			df.comment.focus();
+		}else{
+			df.submit();
+		}
+	}
+	//인쇄
+	function SendPrint(nkey,ncode){
+		var pUrl,pWindow;
+		pUrl =  "/news2011/asp/news_print.asp?code=" + ncode + "&key=" + nkey;
+		pWindow = window.open(pUrl, "winPrint", "left=0,top=0,width=700px,scrollbars=1,resizable=1");
+		pWindow.focus();
+	}
+	//기사스크랩
+	function newsScrap(){
+		
+			alert("로그인 후 이용하여 주십시오.")
+			location.href="/kookje/admin/login.asp";
+			return;
+		
+	}
+	function win_YK(filename,winhow) 
+	{
+		
+	}
+	function sendTwitter(stitle, surl) { 
+		var wp = window.open("http://twitter.com/home?status="+encodeURIComponent(stitle)+" "+encodeURIComponent(surl),'twitter',''); 
+		if(wp) { 
+			wp.focus(); 
+		} 
+	} 
+	 
+	function sendFaceBook(stitle,surl) { 
+		var wp = window.open("http://www.facebook.com/sharer.php?u="+encodeURIComponent(surl)+"&t="+encodeURIComponent(stitle),'facebook', 'width=600px,height=420px'); 
+		if(wp) { 
+			wp.focus(); 
+		} 
+	} 
+	function sendMe2Day(title, url, tag) {
+		title="\""+title+"\":"+url;
+		var wp = window.open("http://me2day.net/posts/new?new_post[body]="+encodeURIComponent(title)+"&new_post[tags]="+encodeURIComponent(tag),'me2Day','');
+
+		if(wp) {
+			wp.focus();
+		}
+	}
+	function sendCyworld(stitle,surl,thumb,summary,writer) { 
+		var wp = window.open("http://csp.cyworld.com/bi/bi_recommend_pop.php?url="+encodeURIComponent(surl)+"&title_nobase64="+encodeURIComponent(stitle)+"&title=&thumbnail="+thumb+"&summary_nobase64="+encodeURIComponent(summary)+"&summary=&writer=",'cyworld', 'width=400px,height=364px'); 
+		if(wp) { 
+			wp.focus(); 
+		} 
+	} 
+//-->
+</script>
+<meta content="고향집 담 너머로 유월의 나무들이 버거운 가지를 늘어뜨리고도 모자라 따내지 못한 열매들이 바닥에 떨어져 뒹굴다가 제 풀에 썩어가고 있었다. 그 좁은 마당에 보리수" name="description"/>
+<meta content="[아침숲길] 농부 이야기 /조말선" property="og:title">
+<meta content="http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193112" property="og:url">
+<meta content="http://db.kookje.co.kr/news2000/photo/2014/0719/L20140719.22019193112i1.jpg" property="og:image">
+<meta content="국제신문" property="og:site_name">
+<meta content="고향집 담 너머로 유월의 나무들이 버거운 가지를 늘어뜨리고도 모자라 따내지 못한 열매들이 바닥에 떨어져 뒹굴다가 제 풀에 썩어가고 있었다. 그 좁은 마당에 보리수.." property="og:description">
+<meta content="article" property="og:type">
+<meta content="[아침숲길] 농부 이야기 /조말선" name="news_keywords"/>
+<!--헤드 타이틀 표시용-->
+<title>[아침숲길] 농부 이야기 /조말선 : 국제신문</title>
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20527629-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</meta></meta></meta></meta></meta></meta></link></link></meta></meta></head>
+<body onkeydown="gotoURL(event)">
+<div style="position:absolute;right:5px;top:5px;font-size:1em;font-weight:bold;color:#FFFFFF;">1</div>
+<div id="top">
+<div id="top_bar">
+<div class="top_box">
+<div id="top_01">
+<ul>
+<a href="http://www.kookje.co.kr/kookje/admin/login.asp"><li>로그인</li></a>
+<a href="http://www.kookje.co.kr/kookje/admin/register_new.asp"><li>회원가입</li></a>
+<a href="/paoin/default.aspx"><li>PDF보기</li></a>
+<a href="/kookje/marketing_request.asp" target="_blank"><li>구독신청</li></a>
+<a href="/news2011/mobile/mobile_guide.asp"><li>모바일이용안내</li></a>
+</ul>
+</div>
+</div>
+</div>
+<div class="top_box">
+<div id="top_02">
+<div style="position:absolute"></div>
+<div class="logo">
+<a href="/"><img alt="국제신문" src="/kookje/images//top/logo.jpg"/></a>
+</div>
+<div style="background:#333333; width:100px; height:40px; margin:20px 0 0 320px; position:absolute;"><img alt="사진공모전" id="photocontest" src="/news2011/banner/picture_banner.png"/></div>
+<div class="search">
+<form action="/news2011/asp/search.asp" method="post" name="quick_search" onsubmit="">
+<fieldset>
+<legend>통합검색</legend>
+<input name="scode" type="hidden" value="">
+<div class="quick_search_option f_seach_top" id="quick_search_btn" onclick="javascript:qSearch_select('1');" style="cursor:pointer;">통합검색 ▼</div>
+<div id="quick_search_list" style="display:none;">
+<ul>
+<li><a class="f_seach_top" onclick="setPart('')">통합검색</a><br/></li>
+<li><a class="f_seach_top" onclick="setPart('2200')">산이름</a><br/></li>
+<li><a class="f_seach_top" onclick="setPart('2100')">사람들</a></li>
+</ul>
+</div>
+<input class="kwd" maxlength="30" name="stitle" onkeypress="if (event.KeyCode==13) document.quick_search.submit()" type="text">
+<input class="left" id="search_ok" style="" type="submit" value="">
+</input></input></input></fieldset>
+</form>
+</div>
+</div>
+</div>
+<div id="menu_bar">
+<div class="top_box">
+<ul id="nav"><!--nav s-->
+<li class="news"><a href="/">뉴스</a>
+<ul class="subNav01 ">
+<li class="subNav01_01"><a href="/news2011/asp/list_news.asp?code=00&amp;vHeadTitle=속보">속보</a></li>
+<li class="subNav01_02"><a href="/news2011/asp/issue.asp?vHeadTitle=오늘이슈">오늘이슈</a></li>
+<li class="subNav01_03"><a href="/sub.htm?code=0100&amp;vHeadTitle=정치">정치</a>
+<ul class="subNav02 ">
+<li><a href="/news2011/asp/list.asp?code=0100">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0110">청와대/대통령</a></li>
+<li><a href="/news2011/asp/list.asp?code=0120">국회/정당</a></li>
+<li><a href="/news2011/asp/list.asp?code=0130">남북한</a></li>
+<li><a href="/news2011/asp/list.asp?code=0140">선거</a></li>
+<li><a href="/news2011/asp/list.asp?code=0150">지방정치</a></li>
+</ul>
+</li>
+<li class="subNav01_04"><a href="/sub.htm?code=0200&amp;vHeadTitle=경제">경제</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0200">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0210">부동산</a></li>
+<li><a href="/news2011/asp/list.asp?code=0220">증권/금융/보험</a></li>
+<li><a href="/news2011/asp/list.asp?code=0230">쇼핑/유통</a></li>
+<li><a href="/news2011/asp/list.asp?code=0240">기업/창업</a></li>
+<li><a href="/news2011/asp/list.asp?code=0250">구인구직</a></li>
+<li><a href="/news2011/asp/list.asp?code=0260">복권</a></li>
+<li><a href="/news2011/asp/list.asp?code=0270">해양</a></li>
+</ul>
+</li>
+<li class="subNav01_05"><a href="/sub.htm?code=0300&amp;vHeadTitle=사회">사회</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0300">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0310">사건사고</a></li>
+<li><a href="/news2011/asp/list.asp?code=0320">교육</a></li>
+<li><a href="/news2011/asp/list.asp?code=0330">보건/복지</a></li>
+<li><a href="/news2011/asp/list.asp?code=0340">환경</a></li>
+<li><a href="/news2011/asp/list.asp?code=0350">교통</a></li>
+<li><a href="/news2011/asp/list.asp?code=0360">날씨</a></li>
+<li><a href="/news2011/asp/list.asp?code=0370">법원</a></li>
+</ul>
+</li>
+<li class="subNav01_06"><a href="/sub.htm?code=0400&amp;vHeadTitle=국제">국제</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0400">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0410">미국</a></li>
+<li><a href="/news2011/asp/list.asp?code=0420">일본</a></li>
+<li><a href="/news2011/asp/list.asp?code=0430">중국</a></li>
+<li><a href="/news2011/asp/list.asp?code=0440">해외토픽</a></li>
+<li><a href="/news2011/asp/list.asp?code=0450">중동</a></li>
+</ul>
+</li>
+<li class="subNav01_07"><a href="/sub.htm?code=0500&amp;vHeadTitle=문화">문화</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0500">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0510">미술</a></li>
+<li><a href="/news2011/asp/list.asp?code=0520">책/문학</a></li>
+<li><a href="/news2011/asp/list.asp?code=0530">음악/음반/공연</a></li>
+<li><a href="/news2011/asp/list.asp?code=0540">연예</a></li>
+<li><a href="/news2011/asp/list.asp?code=0550">영화/방송</a></li>
+<li><a href="/news2011/asp/list.asp?code=0560">문화재</a></li>
+<li><a href="/news2011/asp/list.asp?code=0570">종교</a></li>
+<li><a href="/news2011/asp/list.asp?code=0580">바둑</a></li>
+</ul>
+</li>
+<li class="subNav01_08"><a href="/sub.htm?code=0700&amp;vHeadTitle=라이프">LIFE</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0700">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0710">건강정보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0720">여성생활</a></li>
+<li><a href="/news2011/asp/list.asp?code=0730">스타일</a></li>
+<li><a href="/news2011/asp/list.asp?code=0740">트렌드</a></li>
+<li><a href="/news2011/asp/list.asp?code=0750">게임</a></li>
+<li><a href="/news2011/asp/list.asp?code=0760">맛집</a></li>
+<li><a href="/news2011/asp/list.asp?code=0770">레저여행</a></li>
+</ul>
+</li>
+<li class="subNav01_09"><a href="/sub.htm?code=0800&amp;vHeadTitle=IT과학">IT/과학</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0800">이 분류의 속보</a></li>
+<li><a href="/news2011/asp/list.asp?code=0820">환경</a></li>
+<li><a href="/news2011/asp/list.asp?code=0830">과학</a></li>
+<li><a href="/news2011/asp/list.asp?code=0840">IT/미디어</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="sport-entertainment "><a href="/news2011/asp/sports_enter.asp?code=0600">스포츠·연예</a>
+<ul class="subNav01">
+<li class="subNav01_01"><a href="/news2011/asp/list.asp?code=0600">스포츠 속보</a></li>
+<li class="subNav01_02"><a href="/news2011/asp/list.asp?code=0610">야구</a></li>
+<li class="subNav01_03"><a href="/news2011/asp/list.asp?code=0620">축구</a></li>
+<li class="subNav01_04"><a href="/news2011/asp/list.asp?code=0640">배구</a></li>
+<li class="subNav01_05"><a href="/news2011/asp/list.asp?code=0630">농구</a></li>
+<li class="subNav01_06"><a href="/news2011/asp/list.asp?code=0650">골프</a></li>
+<li class="subNav01_07"><a href="/news2011/asp/list.asp?code=0600&amp;kwd=국내연예">국내연예</a></li>
+<li class="subNav01_08"><a href="/news2011/asp/list.asp?code=0600&amp;kwd=해외연예">해외연예</a></li>
+<li class="subNav01_09"><a href="/news2011/asp/list.asp?code=0550">영화</a></li>
+<li class="subNav01_10"><a href="/news2011/asp/list.asp?code=0530">음악</a></li>
+<li class="subNav01_11"><a href="/news2011/asp/list.asp?code=0600&amp;kwd=볼만한 TV">볼만한 TV</a></li>
+</ul>
+</li>
+<li class="weekend "><a href="/sub.htm?code=1600&amp;vHeadTitle=주말엔">주말엔</a>
+<ul class="subNav01 ">
+<li class="subNav01_01"><a href="/news2011/asp/list.asp?code=1600">최신기사</a></li>
+<li class="subNav01_02"><a href="/news2011/asp/list.asp?code=1610">커버스토리</a></li>
+<li class="subNav01_03"><a href="/news2011/asp/mountain/mountain.asp?code=2200">근교산</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=2200">전체기사</a></li>
+<li><a href="/news2011/asp/list.asp?code=2210">부산</a></li>
+<li><a href="/news2011/asp/list.asp?code=2220">경남</a></li>
+<li><a href="/news2011/asp/list.asp?code=2230">대구경북</a></li>
+<li><a href="/news2011/asp/list.asp?code=2240">비영남권</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=23">산행후기</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=26">산행사진</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=25">산행안내</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=27">자유게시판</a></li>
+</ul>
+</li>
+<li class="subNav01_04"><a href="/news2011/asp/list.asp?code=1620">문화생활장터</a></li>
+<li class="subNav01_05"><a href="/news2011/asp/list.asp?code=1600&amp;kwd=맛 대 맛">맛 대 맛</a></li>
+</ul>
+</li>
+<li class="opinion "><a class="on" href="/sub.htm?code=1700&amp;vHeadTitle=오피니언">오피니언</a>
+<ul class="subNav01 on">
+<li class="subNav01_01"><a class="on" href="/news2011/asp/list.asp?code=1700">최신기사</a></li>
+<li class="subNav01_02"><a href="/news2011/asp/list.asp?code=1710">사설</a></li>
+<li class="subNav01_03"><a href="/news2011/asp/list.asp?code=1740">도청도설</a></li>
+<li class="subNav01_04"><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0217">국제칼럼</a></li>
+<li class="subNav01_05"><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021040021039">강동수·강동진칼럼</a></li>
+<li class="subNav01_06"><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021038">박희봉칼럼</a></li>
+<li class="subNav01_09"><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0229">외부칼럼</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0229">세상읽기</a></li>
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0230">감성터치</a></li>
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0219">아침숲길</a></li>
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0220">과학에세이</a></li>
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0231">스포츠에세이</a></li>
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0228">인문학칼럼</a></li>
+<li><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0221">CEO칼럼</a></li>
+<li><a href="/news2011/asp/list.asp?code=1790">기고</a></li>
+</ul>
+</li>
+<li class="subNav01_07"><a href="/news2011/asp/list.asp?code=1750">데스크시각</a></li>
+<li class="subNav01_08"><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021037">뉴스와현장·기자수첩</a>
+<ul class="tabarea subNav02" style="float:left">
+<li class="off" id="tab_listGisa_1">
+<p><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021037">뉴스와현장</a></p></li>
+<li class="off" id="tab_listGisa_2">
+<p><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021001">기자수첩</a></p></li>
+</ul>
+</li>
+<li class="subNav01_10"><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0227">옴부즈맨칼럼</a>
+<ul class="tabarea subNav02" style="float:left">
+<li class="off" id="tab_listGisa_1">
+<p><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0227">옴부즈맨칼럼</a></p></li>
+<li class="off" id="tab_listGisa_2">
+<p><a href="/news2011/asp/list.asp?code=1770">독자권익위원회</a></p></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="photo-video "><a href="/news2011/asp/video.asp?code=1000">포토·동영상</a>
+<ul class="subNav01 ">
+<li class="subNav01_01"><a href="/news2011/asp/video.asp?code=1000">동영상종합</a></li>
+<li class="subNav01_02"><a href="/news2011/asp/list.asp?code=0900">포토종합</a></li>
+<li class="subNav01_03"><a href="/news2011/asp/list.asp?code=0906">스포츠</a></li>
+<li class="subNav01_04"><a href="/news2011/asp/list.asp?code=0921">행사현장</a></li>
+<li class="subNav01_05"><a href="/news2011/asp/list.asp?code=0924">아침의 갤러리</a></li>
+</ul>
+</li>
+<li class="people "><a href="/news2011/asp/people.asp?code=2100">사람들</a>
+<ul class="subNav01 ">
+<li class="subNav01_01"><a href="/news2011/asp/list.asp?code=2100">전체보기</a></li>
+<li class="subNav01_02"><a href="/news2011/asp/list.asp?code=2110">인물</a></li>
+<li class="subNav01_03"><a href="/bbs/event_list_2.asp?code=2120">인사</a></li>
+<li class="subNav01_04"><a href="/bbs/event_list_2.asp?code=2130">모임</a></li>
+<li class="subNav01_05"><a href="/bbs/event_list_2.asp?code=2140">개업</a></li>
+<li class="subNav01_06"><a href="/bbs/event_list_2.asp?code=2150">결혼</a></li>
+<li class="subNav01_07"><a href="/bbs/event_list_2.asp?code=2160">출산</a></li>
+<li class="subNav01_08"><a href="/bbs/event_list_2.asp?code=2170">동정</a></li>
+<li class="subNav01_09"><a href="/bbs/event_list_2.asp?code=2180">부음</a></li>
+<li class="subNav01_10"><a href="/bbs/event_list_2.asp?code=2191">본사내방</a></li>
+<li class="subNav01_11"><a href="/news2011/asp/citizen/citizen.asp?code=8800">시민기자</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=8800">전체보기</a></li>
+<li><a href="/news2011/asp/list.asp?code=8810">생생신문고</a></li>
+<li><a href="/news2011/asp/list.asp?code=8820">이생각저소리</a></li>
+<li><a href="/news2011/asp/list.asp?code=8830">동네방네</a></li>
+<li><a href="/news2011/asp/list.asp?code=8840">락&amp;휴</a></li>
+<li><a href="/news2011/asp/list.asp?code=8850">발언대</a></li>
+<li><a href="/news2011/asp/citizen/citizen_intro.asp?cSub_chk=Y1">국제신문 시민기자란?</a></li>
+</ul>
+</li>
+<li class="subNav01_12"><a href="/news2011/asp/collegian/collegian_intro.asp?cSub_chk=X1">대학생</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=7700">전체보기</a></li>
+<li><a href="/news2011/asp/list.asp?code=7710">Spot Photo</a></li>
+<li><a href="/news2011/asp/list.asp?code=7720">General Photo</a></li>
+<li><a href="/news2011/asp/list.asp?code=7730">Photo Story</a></li>
+<li><a href="/news2011/asp/collegian/collegian_intro.asp?cSub_chk=X1">대학생 사진기자단이란?</a></li>
+</ul>
+</li>
+<li class="subNav01_13"><a href="/news2011/asp/teenager.asp?code=0850">중고생</a>
+<ul class="subNav02">
+<li><a href="/news2011/asp/list.asp?code=0850">전체보기</a></li>
+<li><a href="/news2011/asp/list.asp?code=0850&amp;kwd=기자수첩">기자수첩</a></li>
+<li><a href="/bbs/item_list_2.asp?board_no=ITEM">주제토론방</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=28">자유게시판</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=30">공지사항</a></li>
+<li><a href="/bbs/board_list_2.asp?board_no=31">활동현황</a></li>
+</ul>
+</li>
+<li class="subNav01_14"><a href="http://wefnews.kookje.co.kr/" target="_blank">스타일</a></li>
+</ul>
+</li>
+</ul>
+<div id="nav1">
+<div class="all_view_btn" onmouseout="TopMenuHide('all_view'); return false;" onmouseover="TopMenuShow('all_view'); return false;"><img alt="전체보기" src="/kookje/images/top/view_btn.png" style="cursor:pointer;">
+<div id="all_view" style="display:none;"><!-- 전체보기레이어 s -->
+<div id="all_view_top">
+<img alt="닫기" id="all_view_close" onclick="TopMenuHide('all_view'); return false;" src="http://www.kookje.co.kr/kookje/images/all_view_close.gif" style="cursor:pointer;" title="전체보기 닫기">
+</img></div>
+<div id="all_view_guide">
+<ul>
+<li class="all_view1">
+<dl>
+<dt><a href="/"><span class="t_black">뉴스</span><span class="t_red">(N)</span></a></dt>
+<dd><a href="/news2011/asp/list_news.asp?code=00&amp;vHeadTitle=속보">속보</a></dd>
+<dd><a href="/news2011/asp/issue.asp?vHeadTitle=오늘이슈">오늘이슈</a></dd>
+<dd><a href="/sub.htm?code=0100&amp;vHeadTitle=정치">정치</a></dd>
+<dd><a href="/sub.htm?code=0200&amp;vHeadTitle=경제">경제</a></dd>
+<dd><a href="/sub.htm?code=0300&amp;vHeadTitle=사회">사회</a></dd>
+<dd><a href="/sub.htm?code=0400&amp;vHeadTitle=국제">국제</a></dd>
+<dd><a href="/sub.htm?code=0500&amp;vHeadTitle=문화">문화</a></dd>
+<dd><a href="/sub.htm?code=0700&amp;vHeadTitle=라이프">LIFE</a></dd>
+<dd><a href="/sub.htm?code=0800&amp;vHeadTitle=IT/과학">IT/과학</a></dd>
+</dl>
+</li>
+<li class="all_view2">
+<dl>
+<dt><a href="/news2011/asp/sports_enter.asp?code=0600"><span class="t_black">스포츠·연예</span><span class="t_red">(S)</span></a></dt>
+<dd><a href="/news2011/asp/list.asp?code=0610">스포츠 속보</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0610">야구</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0620">축구</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0640">배구</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0630">농구</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0650">골프</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0600&amp;kwd=국내연예">국내연예소식</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0600&amp;kwd=해외연예">해외연예소식</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0550">영화</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0530">음악</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=0600&amp;kwd=볼만한 TV">볼만한TV</a></dd>
+</dl>
+</li>
+<li class="all_view3">
+<dl>
+<dt><a href="/sub.htm?code=1600&amp;vHeadTitle=주말엔"><span class="t_black">주말엔</span></a></dt>
+<dd><a href="/news2011/asp/list.asp?code=1600">최신기사</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1610">커버스토리</a></dd>
+<dd><a href="/news2011/asp/mountain/mountain.asp?code=2200">근교산</a><span class="t_red bold">(M)</span></dd></dl></li></ul></div></div></img></div></div></div></div></div></body></html>
+<dd><a href="/news2011/asp/list.asp?code=1620">문화생활장터</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1600&amp;kwd=맛 대 맛">맛대맛</a></dd>
+
+
+<li class="all_view4">
+<dl>
+<dt><a href="/sub.htm?code=1700&amp;vHeadTitle=오피니언"><span class="t_black">오피니언</span><span class="t_red">(M)</span></a></dt>
+<dd><a href="/news2011/asp/list.asp?code=1700">최신기사</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1710">사설</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1740">도청도설</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0217">국제칼럼</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021040021039">강동수·강동진칼럼</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021038">박희봉칼럼</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1750">데스크시각</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=021001">뉴스와현장·기자수첩</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0229">외부칼럼</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1720&amp;clss_cd=0227">옴부즈맨칼럼</a></dd>
+</dl>
+</li>
+<li class="all_view5">
+<dl>
+<dt><a href="/news2011/asp/video.asp?code=1000"><span class="t_black">포토·동영상</span><span class="t_red">(P)</span></a></dt>
+</dl>
+</li>
+<li class="all_view6">
+<dl>
+<dt><a href="people.asp?code=2100"><span class="t_black">사람들</span><span class="t_red">(E)</span></a></dt>
+<dd><a href="/news2011/asp/list.asp?code=2100">전체보기</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=2110">인물</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2120">인사</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2130">모임</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2140">개업</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2150">결혼</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2160">출산</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2170">동정</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2180">부음</a></dd>
+<dd><a href="/bbs/event_list_2.asp?code=2191">본사내방</a></dd>
+<dd><a href="/news2011/asp/citizen/citizen.asp?code=8800">시민기자</a><span class="t_red bold">(R)</span></dd>
+<dd><a href="/news2011/asp/collegian/collegian_intro.asp?cSub_chk=X1">대학생</a></dd>
+<dd><a href="/news2011/asp/teenager.asp?code=0850">중고생</a></dd>
+<dd><a href="http://wefnews.kookje.co.kr/" target="_blank">스타일</a></dd>
+</dl>
+</li>
+<li class="all_view6">
+<dl>
+<dt><a href="#"><span class="t_black">기타</span></a></dt>
+<dd><a href="/news2011/asp/list.asp?code=0260">복권</a></dd>
+<!--<dd><a href="#">운세</a></dd>-->
+<dd><a href="/news2011/asp/list.asp?code=0580">바둑</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=2000">외국어강좌</a></dd>
+<dd><a href="/news2011/asp/list.asp?code=1910">그림창</a></dd>
+<dd><a href="http://kookje.incruit.com/" target="_blank">구인구직</a></dd>
+<dd><a href="http://www.r114.co.kr/" target="_blank">부동산</a></dd>
+<dd><a href="http://kookje.ykbook.com/" target="_blank">도서</a></dd>
+<dd><a href="list.asp?code=1800">알림·사고</a></dd>
+<dt><strong>게시판</strong></dt>
+<dd><a href="/bbs/board_list_2.asp?board_no=1">독자투고</a></dd>
+<dd><a href="/bbs/board_list_2.asp?board_no=2">독자제보</a></dd>
+<dd><a href="/bbs/leisure_list_2.asp?code=2200">주간산행안내</a></dd>
+</dl>
+</li>
+<li class="all_view8">
+<dl>
+<dt><a href="/kookje/ceo_message.asp" target="_blank"><span class="t_black">회사소개</span></a></dt>
+<dd><a href="/kookje/ceo_message.asp" target="_blank">회사소개</a></dd>
+<dd><a href="/kookje/marketing_request.asp" target="_blank">구독신청</a></dd>
+<dd><a href="/kookje/cor_formation.asp" target="_blank">전화안내</a></dd>
+<dd><a href="/kookje/adver_ad.asp" target="_blank">광고안내</a></dd>
+<dd><a href="/kookje/admin/kookje_guide.asp">개인정보취급방침</a></dd>
+</dl>
+<dl class="allView_login all_view9">
+<dd><a class="t_black" href="http://www.kookje.co.kr/kookje/admin/register_new.asp">회원가입</a></dd>
+<dd><a class="t_black" href="http://www.kookje.co.kr/kookje/admin/login.asp">로그인<span class="t_red">(L)</span></a></dd>
+<dd><a class="t_black" href="http://www.kookje.co.kr/kookje/admin/Pass_Find.asp?flag=r">아이디 비밀번호 찾기</a></dd>
+</dl>
+</li>
+
+
+ <!-- 전체보기레이어 e -->
+
+<!--nav e-->
+
+
+<div id="sub_menu_bar">
+<div class="top_box">
+<div id="inside"></div>
+<div id="top_sns"><a href="https://twitter.com/busaninews" target="_blank"><img alt="트위터" src="/kookje/images/top/t_btn.jpg"/></a><a href="https://www.facebook.com/BUSANiNEWS" target="_blank"><img alt="페이스북" src="/kookje/images/top/f_btn.jpg"/></a><a href="/news2011/asp/rss.asp?vHeadTitle=RSS" target="_blank"><img alt="RSS" src="/kookje/images/top/r_btn.jpg"/></a></div>
+</div>
+</div>
+
+<div id="wrapper"> <!-- wrapper s-->
+<!--<script type="text/javascript" src="/news2011/banner/e64_banner.js"></script>-->
+<script type="text/javascript">
+//var hx = 137*eval(e64bnr.length)
+
+function flow_LBanner(){
+	if(navigator.appName == 'Netscape') 
+		var ltop=document.body.scrollTop+7;
+	else
+		var ltop=document.documentElement.scrollTop +7;	
+
+	if(ltop <= 184) flow_banner_left.style.top=ltop + 'px';
+	else if(ltop > 3000) flow_banner_left.style.bottom=0 + 'px';
+	else flow_banner_left.style.top=(ltop-184) + 'px';
+}
+
+function flow_RBanner(){
+	if(navigator.appName == 'Netscape') 
+		var rtop=document.body.scrollTop +7;
+	else
+		var rtop=document.documentElement.scrollTop+7;
+	if(rtop <= 184) flow_banner_right.style.top=rtop + 'px';
+	else if(rtop > 3000) flow_banner_right.style.bottom=0 + 'px';
+	else flow_banner_right.style.top=(rtop-184) + 'px';
+
+
+/*지방선거때
+	if(navigator.appName == 'Netscape') 
+		var rtop=document.body.scrollTop;
+	else
+		var rtop=document.documentElement.scrollTop;
+
+	if(rtop > hx) flow_banner_right_temp.style.top=0 + 'px';
+	if(rtop < hx) flow_banner_right_temp.style.top=rtop + 'px';
+	else if(rtop > 3500) flow_banner_right_temp.style.bottom= + 'px';
+	else flow_banner_right_temp.style.top=(rtop-hx-140) + 'px';
+*/
+}
+</script>
+<style>
+#e64bnr p{width:118px;height:130px;border:1px solid #ccc;overflow:hidden;overflow:hidden;margin-bottom:5px}
+</style>
+<div class="flow_wrap2">
+<div id="flow_banner_left" style="position:absolute;width:120px;left:-126px; top:7px;">
+<a href="http://www.busanmedi.com" target="_blank"><img alt="부산메디클럽" height="120px" src="/news2011/banner/busanmedi.gif" style="padding-bottom:5px" width="120px"/></a>
+<iframe frameborder="0" height="600px" scrolling="no" src="/service/banner/real_left_sky.htm" width="120px"></iframe>
+</div>
+<!--<div id="flow_banner_right_temp" style="position:absolute;left:976px; top:-4px">
+<div id="e64bnr" style="position:relative;top:0">
+<script type="text/javascript">
+//document.write(e64bnr_fix);
+//e64_bnr_func();
+</script>
+</div></div>-->
+<div id="flow_banner_right" style="position:absolute;left:976px; top:7px">
+<p style="margin-bottom:5px">
+<a href="http://www.gukhwari.co.kr/" rel="nofollow" target="_blank"><img src="/news2011/banner/gukhwari2.gif"/></a>
+</p>
+<iframe frameborder="0" height="702px" scrolling="no" src="/service/banner/real_right_sky.htm" width="120px"></iframe>
+</div>
+</div>
+<script type="text/javascript">
+//주석풀면 따라다님
+if (1700!="1000"){
+
+	window.onscroll = function(){
+		flow_LBanner(); //왼쪽
+		flow_RBanner(); //오른쪽
+	}
+}
+</script>
+<div id="Contents"> <!-- Contents s-->
+<!---------------->
+<!-- topArea s-->
+<!---------------->
+<div id="topArea"> <!-- topArea s-->
+<!---------------->
+<!-- leftArea s-->
+<div class="leftArea"> <!-- leftArea s-->
+<div id="submenu_blank"> <!-- submenu_blank s-->
+</div> <!-- submenu_blank e -->
+<!--ad realclick s-->
+<div id="bnr_newstopArea">
+<iframe frameborder="0" scrolling="no" src="/service/banner/real_newstop.htm" width="100%"></iframe>
+</div><!--ad realclick e-->
+<div id="news_topArea"> <!-- news_topArea s -->
+<div class="news_title">
+<h1>[아침숲길] 농부 이야기 /조말선</h1>
+</div>
+<div class="news_reporterDate left">
+<ul>
+<li class="f_news_kookje">국제신문</li>
+<li class="f_news_repoter" id="reporter_">디지털뉴스부 inews@kookje.co.kr</li>
+<li><span class="f_news_date">2014-07-18 19:32:00</span></li>
+<li class="f_news_myeon">/ 본지 19면</li>
+</ul>
+</div>
+<div class="news_comment right">
+<ul>
+<li><a class="f_news_comment" href="#news_commentArea">덧글 <span class="fGreen" id="commnet_cnt">(0)</span></a></li>
+<li class="f_news_comment">좋아요 <span class="fRed" id="recommnet_cnt">(0)</span></li>
+<!-- <span class="news_graph"><a href=""><img src="/kookje/images/news_graph.gif" border="0" alt="좋아요 그래프"></a></span> -->
+</ul>
+</div>
+<div class="news_snsPrint">
+<ul class="news_sns left">
+<li><img alt="미투데이" border="0" onclick="javascript:sendMe2Day('[아침숲길] 농부 이야기 /조말선','http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193112','KookJe News');" src="/kookje/images/icon_sns_me2day.gif" style="cursor:pointer;"/></li>
+<li><img alt="싸이월드 공감" border="0" onclick="javascript:sendCyworld('[아침숲길] 농부 이야기 /조말선','http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193112','http://db.kookje.co.kr/news2000/photo/2014/0719/L20140719.22019193112i1.jpg','고향집 담 너머로 유월의 나무들이 버거운 가지를 늘어뜨리고도 모자라 따내지 못한 열매들이 바닥에 떨어져 뒹굴다가 제 풀에 썩어..','');" src="/kookje/images/icon_sns_cyworld.gif" style="cursor:pointer;"/></li>
+<li><img alt="트위터" border="0" onclick="javascript:sendTwitter('[아침숲길] 농부 이야기 /조말선','http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193112');" src="/kookje/images/icon_sns_twitter.gif" style="cursor:pointer;"/></li>
+<li><img alt="페이스북" border="0" onclick="javascript:sendFaceBook('[아침숲길] 농부 이야기 /조말선','http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193112');" src="/kookje/images/icon_sns_facebook.gif" style="cursor:pointer;"/></li>
+</ul>
+<ul class="news_print right">
+<li><a href="javascript:newsUrl_copy('');"><img alt="기사주소복사" border="0" src="/kookje/images/btn_news_gisacopy.gif"/></a>
+<input id="url_copy" type="hidden" value="http://www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193112"><!-- 기사주소복사용 주소 -->
+</input></li>
+<li><a href="javascript:newsScrap();"><img alt="스크랩" border="0" src="/kookje/images/btn_news_scrap.gif"/></a></li>
+<li><a href="javascript:SendPrint('20140719.22019193112','1700');"><img alt="인쇄" border="0" src="/kookje/images/btn_news_print.gif"/></a></li>
+<li class="news_font"><a href="#" onclick="eventFaceLarger();" onfocus="this.blur();"><img alt="글씨 크게" border="0" src="/kookje/images/btn_news_fontL.gif"/></a></li>
+<li class="news_font"><a href="#" onclick="eventFaceSmaller();" onfocus="this.blur();"><img alt="글씨 작게" border="0" src="/kookje/images/btn_news_fontS.gif"/></a></li>
+</ul>
+</div>
+</div><!-- news_topArea e -->
+<div id="news_textArea">
+<div style="float:right;width:300px;height:250px;margin-left:10px;">
+<div style="float:right;position:relative;width:300px;height:250px;border:1px solid #999999;">
+<script type="text/javascript"><!--
+google_ad_client = "pub-5306000737854769";
+/* 300x250, 작성됨 10. 2. 28 */
+google_ad_slot = "3834944788";
+google_ad_width = 300;
+google_ad_height = 250;
+//-->
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+</div>
+</div>
+<table align="right" border="0" cellpadding="0" cellspacing="0" width="100"><tbody><tr><td width="15">   </td><td align="right"><a href="javascript:win_YK('/news2011/asp/photo_view.asp?img_fn=20140719.22019193112i1.jpg')"><img alt="" border="0" id="newsimg" src="http://db.kookje.co.kr/news2000/photo/2014/0719/S20140719.22019193112i1.jpg"/></a></td></tr><tr><td colspan="2" height="3"></td></tr></tbody></table><div><div>고향집 담 너머로 유월의 나무들이 버거운 가지를 늘어뜨리고도 모자라 따내지 못한 열매들이 바닥에 떨어져 뒹굴다가 제 풀에 썩어가고 있었다. 그 좁은 마당에 보리수 열매, 매실, 자두가 어떻게 설자리가 있는지 특별한 관리 없이 올해도 열매들을 한껏 매달고 수확할 손길을 기다리다가 저희들끼리 자연을 이루어가고 있었다. 아무리 열매가 실하게 영글어도 누군가가 당연히 수확을 하였고 열매를 잃은 나무들은 섭섭한 듯 윤기 잃은 이파리를 펄럭이다가 가을 겨울을 맞이하는 줄 알았는데 지천으로 떨어진 과일들을 보면서 유유자적을 떠올려야 하나 무위자연을 떠올려야 하나 난감하였다. 해마다 때가 되면 자두맛을 보았고 매실을 따내 매실청을 담갔는데 올해는 웬일인지 마당의 나무들은 뒷전으로 밀려나 있었다. </div><div><br/></div><div>곧 아흔이 다가오는 아버지와 여든이 넘은 어머니는 자식들이 놀랄 정도로 규칙적인 생활습관과 타고난 성실함으로 이제껏 고향집을 지켜오셨고 소일거리 삼아 텃밭을 오가시며 그럭저럭 평화로운 삶을 살아오셨다. 물론 가지 많은 나무의 바람은 조금만 불어도 나무 전체가 소란스러워서 두 분의 심정이 굴곡을 많이 탄 것도 부인할 수 없지만 아버지는 천생농부셨다. 성실 근면함이라면 단연코 일인자로 칭해드리고 싶은 농부, 규칙적인 생활습관이 몸에 밴 농부, 그 덕분에 이재에는 당연히 어두운 천생농부의 기질을 지금껏 못 버리고 계신다. 아흔을 바라보는 연세에도 자전거를 몰고 꼬박꼬박 근처 공원으로 운동을 하러 가셨다가 시계추처럼 정확하게 귀가하신다. 그리고는 라디오를 틀어놓고 전용의자에 앉아 마당의 나무들을 바라보시는지 지나간 세월을 반추하시는지 휴식을 취하시다가 어느새 텃밭으로 나가 채소들을 돌보신다.</div><div><br/></div><div>큰 농사는 접으신지 오래이건만 시골생활이라는 게 밭뙈기 하나만 있어도 요모조모 쓰임새가 있고 하루가 짧은데 올해는 이년 전 심은 산딸기가 상품으로 수확할 지경에 이르러 두 분은 기대 반 걱정 반으로 유월을 보내셨다. 손을 보태줄 자식들은 제 살기 바빴고 두 분은 너무 노쇠했고 남의 일손을 사기에는 타산이 안 맞는 지경이었는데 웬일인지 두 분은 사뭇 상기된 표정으로 딸기를 수확하며 통장에 쌓이는 잔고에 아이들마냥 좋아하셨다. 일사병 걸려 쓰러지면 어떡하냐고 핀잔하기만 할 뿐 딱히 거들어줄 여력도 없는 처지여서 간혹 짬을 내서 딸기밭을 둘러보러 가면 아버지는 한 시간 딸기를 따고 한 시간 휴식을 취하며 특유의 관리를 하고 계셨다. 어머니는 마음만 앞서고 몸은 따라주지 않아서 몇 시간 내리 일하고 다음 날은 기력이 저하되어 쩔쩔 매셨다. </div><div><br/></div><div> "이렇게 쉬운 걸, 진즉에 심을 걸 그랬다." 어머니의 이 말씀대로 산딸기 농사는 쉬운 편이다. 그동안 두 분이 해오신 시설재배에 비하면 말이다. 제 손으로 무언가를 심고 거두는 기쁨을 아는 사람이라면 농사가 얼마나 큰 만족을 주는지 알 것이다. 물론 그 만족감은 경제적인 성취와는 전혀 무관하다는 것도. 농부의 딸이라 그런가 나도 언젠가는 텃밭을 일구고 사는 내 모습을 상상하며 그 시기를 당기고 싶다는 생각을 하곤 한다. 하지만 이것은 상상일 뿐 현실화를 장담할 수 없다. 과일이 지천으로 익어가도 손끝 하나 까딱하기 싫다며 마트에서 사먹는  내 모습에 실소를 한다. 어머니는 농사를 지으며 유독 채소들이 커가는 모습을 보고 좋아라 하셨다. "배추가 얼마나 예쁘냐?", "이 토마토 좀 봐라." 나는 간혹 부모님을 거들어드리는 게 힘에 부쳤는지 어머니의 그런 말씀에 심드렁할 뿐이었다. </div><div><br/></div><div>지난 유월은 심기가 불편하고 불안하고 그 어느 때보다 자주 고향집을 가는 화명대교를 건너다녔다. 여차하면 어머니를 모시고 정형외과를 들락거렸다. "엄마, 이러다가 번 돈 다 병원비로 나가겠어."  나의 핀잔에도 두 분의 무모함은 멈추지 않았는데 아니나 다를까 어느 날 아버지의 심상찮은 전화를 받고 고향집을 달려가 보니 어머니의 몸 상태가 심각했다. 얼마나 힘이 들었는지 그렇게 꺼려하던 종합병원을 몸소 가자신다. 일어나고 앉는 동작을 너무 힘들어하는 어머니의 모습에 덜컥 겁이 났다. 아예 움직이지 못한다면 어떡하나 싶으니 애초에 적극적으로 두 분을 말리지 않은 것이 몹시 후회되었다. 그 연세에 무탈하게 계셔도 감사한 일을 두 분의 농사병을 부추긴 것은 아닌지 이런저런 생각이 드는 것이다.</div><div><br/></div><div>의사 앞에서 그저 아프지만 않게 해달라고 성화시니 의사는 그 심정 이해한다는 듯이 진통제를 같이 처방해 준다. 골다공증과 디스크가 병행되고 있는데 딸기를 따면서 무리한 탓에 통증이 심해진 것이다. 뼈에 금이 가지 않은 것이 천만다행이었다. 한동안 집밖 출입을 하지 않다가 너무 답답하다며 아버지 따라 텃밭에 있는 어머니를 부르자 아버지가 어머니의 손을 잡고 일으키는 모습이 왜 그렇게 아름다운지. "엄마, 이제 딸기 따지마"하면 "내년에 제대로 한 번만 해 보고…"하신다. </div></div><br>시인<div style="clear:both;position:relative;width:468px;height:60px;background:#FFF;border:1px solid #999999;margin:10px auto;z-index:0"><div style="position:absolute;width:468px;margin:0"><script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script><ins class="adsbygoogle" data-ad-client="ca-pub-5306000737854769" data-ad-slot="7029386764" style="display:inline-block;width:468px;height:60px"></ins><script>(adsbygoogle = window.adsbygoogle || []).push({});</script></div></div>
+</br></div>
+<div id="nsnb"><span><a href="http://newsstand.naver.com/?pcode=332&amp;list=ct9" target="_blank"><img src="/kookje/images/contents/nsnbtn1.png"><a href="newsstand.asp" target="_blank"><img src="/kookje/images/contents/nsnbtn2.png"/></a></img></a></span></div>
+<!--ad doublem s-->
+<div id="bnr_newsmiddleArea">
+<iframe frameborder="0" height="220px" scrolling="no" src="/service/banner/doublem_about_shopbox.htm" width="100%"></iframe>
+</div><!--ad doublem e-->
+<!-- news_photoArea s -->
+<div id="news_photoArea">
+<div id="Set01">
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22034185435"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0718/S20140718.22034185435i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22034185435">노희경표 로코물 어색해? 믿고 보는 공블리 있잖아</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22034185340"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0718/S20140718.22034185340i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22034185340">구멍병사 헨리의 '판타스틱' 컴백</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22035184611"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0718/S20140718.22035184611i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22035184611">"캐릭터 이름도 본명(수경)으로 수정…싱크로율 100%"</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22035184334"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0718/S20140718.22035184334i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22035184334">들어는 봤니? 3D 플라잉 액션</a></dd>
+</dl>
+</div>
+<div id="Set02">
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140717.22014194207"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0717/S20140717.22014194207i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140717.22014194207">하마스 "휴전 거부", 이-팔 교전 재개</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140717.22014193838"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0717/S20140717.22014193838i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140717.22014193838">태국 반정부시위 주도 수텝, 불교 수도승으로 변신</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140715.22013193823"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0715/S20140715.22013193823i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140715.22013193823">이-팔 포격전 4차 중동전 비화 조짐…가자주민 1만7000명 피란</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140714.22014193736"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0714/S20140714.22014193736i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140714.22014193736">'이', 가자지구 무차별 공습에 사상자 눈덩이</a></dd>
+</dl>
+</div>
+<div id="Set03">
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140714.22014193508"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0714/S20140714.22014193508i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140714.22014193508">아프간 대선 결선투표 전면 재검표 합의</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140712.22009214753"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0712/S20140712.22009214753i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140712.22009214753">두 교황의 '聖戰'…신은 누구의 기도를 들어줄까</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140712.22009214700"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0712/S20140712.22009214700i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140712.22009214700">회당 7600만 원…클린턴 딸 첼시도 고액 강연료 구설</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140711.22011194617"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0711/S20140711.22011194617i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140711.22011194617">미국-중국, 전략대화서 영유권·인권 놓고 격돌</a></dd>
+</dl>
+</div>
+<div id="Set04">
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140711.22011194350"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0711/S20140711.22011194350i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140711.22011194350">호주 외교장관 "중국에 할 말은 하겠다"</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140711.22034185813"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0711/S20140711.22034185813i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140711.22034185813">함수소녀들, 올여름도 그린라이트</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140711.22034185709"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0711/S20140711.22034185709i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140711.22034185709">농촌 사는 30대 부부 이야기 '통했다'</a></dd>
+</dl>
+<dl class="left">
+<dt><a href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140711.22035185034"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0711/S20140711.22035185034i1.jpg"/></a></dt>
+<dd><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140711.22035185034">"영화 '아바타'와 비교하면 마티즈와 그랜저 차이"</a></dd>
+</dl>
+</div>
+</div>
+<script type="text/javascript">
+<!--
+var s_now = new Date() ; 
+var s_num = (s_now.getSeconds() % 4)+1;
+eval("document.getElementById('Set0'+s_num).style.display='block'");
+//-->
+</script>
+<!-- news_photoArea e -->
+<div id="bnr_newsmiddlebottomArea"><!--ad realclick s-->
+<iframe frameborder="0" height="80px" scrolling="no" src="/service/banner/real_bottom.htm" width="620px"></iframe></div>
+<div id="news_relGisa2"> <!-- news_relGisa2 s -->
+<ul class="left">
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140718.99002162845">▶ 운전자 벌에 쏘여 버스 45도 기우뚱…절벽으로 추락할 뻔</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140718.22011193633">▶ 중국 공무원들, 장·차관급 이외 관용차 못 탄다</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140718.22011193524">▶ "일본군 '위안부' 대신 '강제 성노예'로 표현"</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140718.22011193347">▶ 태풍 람마순 강타한 필리핀 최소 38명 사망·2만6000채 파손</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140717.99002171607">▶ JYP엔터테인먼트 사옥서 30대 남성 흉기 소동</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140717.99002165649">▶ 故 이은교 소방사, 추락 1시간전 SNS에 '소방관 국가직화' 글</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140717.99002164415">▶ 시베리아 직경 100m 짜리 거대 구멍의 정체는?</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140717.99002160631">▶ '성관계 동영상 유포' 외국인 강사 징역 2년6월</a></li>
+<li class="ellipsis"><a class="f_news_relGisa2_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140717.99002160548">▶ 인천 모 대학교수 제자들 인건비 수천만원 상납 논란</a></li>
+</ul>
+<p class="right" style="width:250px;height:250px;border:1px solid #999999">
+<script type="text/javascript"><!--
+        google_ad_client = "ca-pub-5306000737854769";
+        /* 250x250, 작성됨 10. 2. 28 */
+        google_ad_slot = "2839459725";
+        google_ad_width = 250;
+        google_ad_height = 250;
+        //-->
+        </script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+</p>
+</div><!-- news_relGisa2 e -->
+<div id="news_bottomArea"> <!-- news_bottomArea s -->
+<div class="news_printRecommend">
+<ul class="left">
+<li><a href="javascript:newsUrl_copy('');"><img alt="기사주소복사" border="0" src="/kookje/images/btn_news_gisacopy.gif"/></a></li>
+<li><a href="javascript:newsScrap();"><img alt="스크랩" border="0" src="/kookje/images/btn_news_scrap.gif"/></a></li>
+<li><a href="javascript:SendPrint('20140719.22019193112','1700');"><img alt="인쇄" border="0" src="/kookje/images/btn_news_print.gif"/></a></li>
+</ul>
+<p class="right"><!-- 이 기사가 좋아요 추천합니다 -->
+<iframe frameborder="0" height="25" id="frm_recommendCount" name="frm_recommendCount" src="/news2011/asp/recommend_cnt.asp?key=20140719.22019193112" width="300"></iframe>
+</p>
+</div>
+</div><!-- news_bottomArea e -->
+<div class="center" style="padding:10px 49px 0px"><span id="realclick_view"></span>
+<!--<script type="text/javascript" src="http://mdimg.realclick.co.kr/js/jquery-1.6.2.min.js"></script>-->
+<script type="text/javascript">
+function rc_ad_display(posi){var rcAdStr="";try{if(rcHead!="")rcAdStr+=rcHead;if(rcBody!="")rcAdStr+=rcBody;if(rcFoot!="")rcAdStr+=rcFoot;if(rcAdStr!=""){document.getElementById(posi).innerHTML=rcAdStr;}}catch(e){}}
+function loadJS(url,posi,charset){var hd=document.getElementsByTagName('head')[0];var sc=document.createElement('script');sc.type='text/javascript';if(charset!=null){sc.charset="euc-kr";}
+var ld=false;sc.onreadystatechange=function(){try{if(this.readyState=='loaded'||this.readyState=='complete'){if(ld)return;ld=true;rc_ad_display(posi);}}
+catch(e){}};sc.onload=function(){rc_ad_display(posi);};sc.src=url;hd.appendChild(sc);}
+function load_rc_ad(sevn,objf,posi){var adSrc="http://"+sevn+".realclick.co.kr/"+objf;loadJS(adSrc,posi,'euc-kr');}
+$(document).ready(function(){ var open_height=$('#realclick_view').offset().top; var open=false; $(window).scroll(function(){ var distanceTop=open_height-$(window).height(); if($(window).scrollTop()>distanceTop){if(open=="0"){open=true;load_rc_ad('click','ad_tpl/headcopy.rc?dsn=1&mcode=a29va2plNQ==','realclick_view');}}})});
+</script></div>
+<br>
+<center><iframe frameborder="0" height="210" scrolling="no" src="http://ad.about.co.kr/mad/html/kookje/mid_bottom4/shopbox" width="610"></iframe></center>
+<!-- 댓글이 나올 위치 -->
+<div id="livereContainer"></div>
+<div class="blank_30"><!-- 여백 --></div>
+</br></div> <!-- leftArea e -->
+<!---------------->
+<!---------------->
+<div class="rightArea"> <!-- rightArea s-->
+<!--include right_sub START -->
+<div id="user_write_board">
+<p><span class="f_todayissue_title2">독자참여</span> <span class="f_todayissue_title1">게시판</span></p>
+<ul>
+<li class="list1"><a href="/bbs/board_list_2.asp?board_no=1"><strong style="color:#000000;">독자투고</strong></a><li class="line_bar">I</li></li></ul></div></div></div></div></div>
+<li class="list1"><a href="/bbs/board_list_2.asp?board_no=2"><strong style="color:#000000;">기사제보</strong></a><li class="line_bar">I</li></li>
+<li class="list1"><a href="/news2011/asp/citizen/citizen_list.asp?ifr_url=net_write&amp;code=8800&amp;cSub_chk=Y8">시민기자글쓰기</a><br/></li>
+<!--<li class="list2"><a href="/news2011/asp/collegian/collegian_list.asp?ifr_url=net_write&amp;code=7700&amp;cSub_chk=X5">대학생기자</a><br></li>-->
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2120">인사</a><li class="line_bar">I</li></li>
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2130">모임</a><li class="line_bar">I</li></li>
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2140">개업</a><li class="line_bar">I</li></li>
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2150">결혼</a><li class="line_bar">I</li></li>
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2160">출산</a><li class="line_bar">I</li></li>
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2170">동정</a><li class="line_bar">I</li></li>
+<li class="list2"><a href="/bbs/event_list_2.asp?code=2180">부음</a><br/></li>
+<li class="list3"><a href="/bbs/board_list_2.asp?board_no=25">산행안내</a><li class="line_bar">I</li></li>
+<li class="list3"><a href="/bbs/board_list_2.asp?board_no=23">산행후기</a><li class="line_bar">I</li></li>
+<li class="list3"><a href="/bbs/board_list_2.asp?board_no=26">산행사진</a><li class="line_bar">I</li></li>
+<li class="list3"><a href="/bbs/leisure_list_2.asp?code=2200"><strong style="color:#72b834;">등산</strong></a>·<a href="/bbs/leisure_list_2.asp?code=2300"><strong style="color:#33afe2;">낚시</strong>가이드</a></li>
+
+
+<div style="padding-left:9px"><script type="text/javascript">flash('290','220','/news2011/banner/theprism-red.swf');</script></div>
+<!--include hotissue_main-->
+<div id="todayIssue">
+<p><span class="f_todayissue_title1">오늘</span><span class="f_todayissue_title2">이슈</span></p>
+<ul>
+<li><a class="f_todayissueB" href="/news2011/asp/list.asp?kwd=말레이 여객기 추락">말레이 여객기 추락</a></li>
+<li><a class="f_todayissueB" href="/news2011/asp/list.asp?kwd=진도 여객선 침몰 사고">진도 여객선 침몰 사고</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=정부 쌀시장 개방">정부 쌀시장 개방</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=2014 프로야구">2014 프로야구</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=재ㆍ보궐 선거">재ㆍ보궐 선거</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=인천아시안게임">인천아시안게임</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=신간 돋보기">신간 돋보기</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=부산지하철">부산지하철</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=북한 응원단 파견">북한 응원단 파견</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=공무원 비리">공무원 비리</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=부산 아이파크">부산 아이파크</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=전교조">전교조</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=청와대 인사">청와대 인사</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=책 읽어주는 여자">책 읽어주는 여자</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=대기업-중소기업 동반성장">대기업-중소기업 동반성장</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=더파크">더파크</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=어린이책동산">어린이책동산</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=오인원 교무의 마음의 거울">오인원 교무의 마음의 거울</a></li>
+<li><a class="f_todayissue" href="/news2011/asp/list.asp?kwd=아동학대">아동학대</a></li>
+</ul>
+</div>
+<div class="blank_line_1"></div>
+<iframe frameborder="0" height="167px" scrolling="no" src="/news2011/sephtml/main_mediclub2.htm" width="299px"></iframe>
+<!--include ad-->
+<!--ad doublem s-->
+<div id="bnr_rightTopArea">
+<iframe frameborder="0" height="240" scrolling="no" src="http://ad.about.co.kr/mad/html/kookje/right_middle/shopbox" width="280"></iframe>
+</div><!--ad realclick e-->
+<!--div class="margin_right_div" style="margin-bottom:0px;"><a href="/news2011/asp/list.asp?kwd=부산국제영화제"><img src="/news2011/banner/2012biff_main2.jpg" width="290px" alt="제17회 부산국제영화제"></a>
+<div id="Biff_div">
+    
+    </ul>
+</div>
+</div-->
+<!--		<div style="width:300px;margin-left:10px;margin-top:10px">
+  <iframe src="/news2011/special_m/2014sochi/oly_cheerup.asp" width="292px" height="165px" frameborder="0" allowtransparency="true" scrolling="no" style="margin-top:10px"></iframe>
+		<a href="/news2011/special_m/2014sochi/index.asp"><img src="/news2011/banner/2014sochiin.jpg"></a></div>
+
+    
+2014소치-->
+<script src="/jquery/jquery.mainEnter_photo.js" type="text/javascript"></script>
+<script type="text/javascript">
+<!--
+$(function() {
+	$("#mainEnter_photo").jQBanner({ //롤링을 할 영역의 ID 값
+		nWidth:270, //영역의 width
+		nHeight:160, //영역의 height
+		nCount:4, //돌아갈 이미지 개수
+		isActType:"left", //움직일 방향 (left, right, up, down)
+		nOrderNo:1, //초기 이미지
+		isStartAct:"N",
+		isStartDelay:"Y",
+		nDelay:3000, //롤링 시간 타임 (1000 = 1초)
+		isBtnType:"li" //라벨(버튼 타입) 
+		}
+	);
+});
+//-->
+</script>
+<div class="listLayer" id="mainEnter_photo"><!-- 포토 S -->
+<div class="clsBannerScreen">
+<div class="images" style="display:block">
+<dl class="photoLayer" id="photoLayer1">
+<dt><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002062942"><img alt='조성모, 아내 구민지와의 결혼 루머 "빚을 갚아주기로 해서..." "사실 아냐"' class="photo_view" src="/news2011/screennews/341_20140719_20140719.99002062942i1.jpg"/></a></dt>
+<dd class="photo_title ellipsis"><a class="f_photoLayer_title" href="">조성모, 아내 구민지와의 결혼 루머 "빚을 갚아주기로 해서..." "사실 아냐"</a></dd>
+</dl>
+</div>
+<div class="images">
+<dl class="photoLayer" id="photoLayer2">
+<dt><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002065034"><img alt="'슈퍼맨' 장윤정 하차 &quot;꼼꼼이 너무 어려서&quot;…재출연 가능성 있나?" class="photo_view" src="/news2011/screennews/341_20140719_20140719.99002065034i1.jpg"/></a></dt>
+<dd class="photo_title ellipsis"><a class="f_photoLayer_title" href="">'슈퍼맨' 장윤정 하차 "꼼꼼이 너무 어려서"…재출연 가능성 있나?</a></dd>
+</dl>
+</div>
+<div class="images">
+<dl class="photoLayer" id="photoLayer3">
+<dt><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002070547"><img alt="산이 신곡 '쇼유더머니', 빈지노 디스 논란에…&quot;특정인물 디스 아냐&quot; 직접 해명" class="photo_view" src="/news2011/screennews/341_20140719_20140719.99002070547i1.jpg"/></a></dt>
+<dd class="photo_title ellipsis"><a class="f_photoLayer_title" href="">산이 신곡 '쇼유더머니', 빈지노 디스 논란에…"특정인물 디스 아냐" 직접 해명</a></dd>
+</dl>
+</div>
+<div class="images">
+<dl class="photoLayer" id="photoLayer4">
+<dt><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002072217"><img alt='"박명수 곤장 맞다" 차세대 리더-유재석의 공약 실천…시민들 "폭소"' class="photo_view" src="/news2011/screennews/341_20140719_20140719.99002072217i1.jpg"/></a></dt>
+<dd class="photo_title ellipsis"><a class="f_photoLayer_title" href="">"박명수 곤장 맞다" 차세대 리더-유재석의 공약 실천…시민들 "폭소"</a></dd>
+</dl>
+</div>
+</div>
+<ul class="clsBannerButton" id="label_2">
+<li class="fir" id="photoLayer_sel_1"><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002062942"><img alt="" class="photo_view2" src="/news2011/screennews/341_20140719_20140719.99002062942i1.jpg"/></a></li>
+<li id="photoLayer_sel_2"><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002065034"><img alt="" class="photo_view2" src="/news2011/screennews/341_20140719_20140719.99002065034i1.jpg"/></a></li>
+<li id="photoLayer_sel_3"><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002070547"><img alt="" class="photo_view2" src="/news2011/screennews/341_20140719_20140719.99002070547i1.jpg"/></a></li>
+<li id="photoLayer_sel_4"><a href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140719.99002072217"><img alt="" class="photo_view2" src="/news2011/screennews/341_20140719_20140719.99002072217i1.jpg"/></a></li>
+</ul>
+</div><!-- 포토 E -->
+<!--include hitlistNews-->
+<div id="hitListArea" title="많이본뉴스"> <!-- hitListArea s-->
+<span class="left f_section_title"><img alt="많이 본 뉴스" src="/kookje/images/main_hit.jpg"/></span>
+<span class="right"><a href="/news2011/asp/rss.asp?vHeadTitle=RSS"><img alt="RSS" border="0" src="/kookje/images/rss_go.gif"/></a></span>
+<div class="tabareaH">
+<ul>
+<li class="on" id="tab_hitlist_1" onmouseover="javascript:tabNews('hitlist',1,5);"><p>종합</p></li>
+<li class="off" id="tab_hitlist_2" onmouseover="javascript:tabNews('hitlist',2,5);"><p>경제</p></li>
+<li class="off" id="tab_hitlist_3" onmouseover="javascript:tabNews('hitlist',3,5);"><p>사회</p></li>
+<li class="off" id="tab_hitlist_4" onmouseover="javascript:tabNews('hitlist',4,5);"><p>생활</p></li>
+<li class="off" id="tab_hitlist_5" onmouseover="javascript:tabNews('hitlist',5,5);"><p>스포츠</p></li>
+<!--
+						<li id="tab_hitlist_6" onMouseover="javascript:tabNews('hitlist',6,6);" onFocus="javascript:tabNews('hitlist',6,6);" class="off"><p></p></li>
+                        -->
+</ul>
+</div>
+<div class="tab_gisa" id="tabNews_hitlist_1" style="display:block;">
+<!-- main_hitnews -->
+<ul>
+<li class="icon_gisalist3 ellipsis fBold"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140719.22002210335">차기 한국형 전투기 논란 끝에 '쌍발 엔진' 장착</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140719.22004205023">박 대통령 "국가 적폐 뿌리뽑아야"</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140718.99002165711">새누리 43% vs 새정치연합 26%…여야 지지율 격차 벌어져</a></li>
+<li class="icon_gisalist3 ellipsis" style="margin-bottom:10px;"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140718.99002141400">푸틴 '소련 부활의 꿈' 삐걱…말레이기 피격에 거센 역풍</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22003205916">'400% 관세'로 식량주권 사수 판단…농심·WTO 설득 관건</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140718.99002103824">신격호 롯데 회장이 낸 부의금 놓고 조카들 소송전</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0500&amp;key=20140718.99002103951">'사기혐의' 신정환 고소 사건 취하…경찰 수사는</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0400&amp;key=20140718.99002105045">말레이 여객기 미사일 피격…298명 사망 '역대 최대 규모'</a></li>
+</ul>
+<!-- //main_hitnews -->
+</div>
+<div class="tab_gisa" id="tabNews_hitlist_2" style="display:none;">
+<!-- main_hitnews -->
+<ul>
+<li class="icon_gisalist3 ellipsis fBold"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22003205916">'400% 관세'로 식량주권 사수 판단…농심·WTO 설득 관건</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22010202333">상반기 부산 건물 착공, 전년동기보다 86% 급증</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22010202411">부산은행, 호남 첫 진출…어제 광주영업부 개점</a></li>
+<li class="icon_gisalist3 ellipsis" style="margin-bottom:10px;"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.99002075050">쌀관세화, 불안한 출발…농민대책 없다</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22001211517">최경환 "기업 과도한 유보금 세제상 불이익"</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22003205804">"쌀 수입 급증땐 특별긴급관세 부과"</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22001211529">정부 "내년 쌀시장 전면 개방"…농민 "대정부 저지투쟁 시작"</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140719.22010202353">트렉스타 독일 아웃도어 페어 인기</a></li>
+</ul>
+<!-- //main_hitnews -->
+</div>
+<div class="tab_gisa" id="tabNews_hitlist_3" style="display:none;">
+<!-- main_hitnews -->
+<ul>
+<li class="icon_gisalist3 ellipsis fBold"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22006203721">초등 담임 여교사가 "투명인간 취급하라", 학생 '왕따' 사주</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22008202925">10년 만에 착공…양산 시내버스 공영차고지 생긴다</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22008202754">울산시, 국립산업박물관 예정지 남구 대공원 선정</a></li>
+<li class="icon_gisalist3 ellipsis" style="margin-bottom:10px;"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22001211727">'노후철' 겁없이 달리는데 부산시는 예산타령만</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22007203508">수십년 영호남 지역의 벽 30분 만에 허문 여고생들</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22002210352">한 번은 가볼만 한데…개장 후광 다한 더파크</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22006204018">이금형 부산청장 '의경 위문금'…경찰청, 진상조사</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140719.22006203823">기습 폭우·돌풍·낙뢰…부산 변덕날씨 대소동</a></li>
+</ul>
+<!-- //main_hitnews -->
+</div>
+<div class="tab_gisa" id="tabNews_hitlist_4" style="display:none;">
+<!-- main_hitnews -->
+<ul>
+<li class="icon_gisalist3 ellipsis fBold"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0700&amp;key=20140719.99002092624">꿉꿉한 장마철, 신발 보송보송하게 보관하려면</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0700&amp;key=20140719.99002083128">보건당국 '간질' 용어 폐기…뇌전증으로 대체</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22030191305">대학생 사진기자 포토스토리</a></li>
+<li class="icon_gisalist3 ellipsis" style="margin-bottom:10px;"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0700&amp;key=20140719.99002074908">우리 아이 혹시 성조숙증?</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22029190350">'신라의 달밤'에서 무더위 날려봐!</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22027190851">방울 방울 피어오르는 향기</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22027190615">파라다이스호텔 부산 '라운지 파라다이스 패키지' 外</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=1600&amp;key=20140718.22029185310">박물관을찾는사람들 '대한민국 명승 순례 답사' 外</a></li>
+</ul>
+<!-- //main_hitnews -->
+</div>
+<div class="tab_gisa" id="tabNews_hitlist_5" style="display:none;">
+<!-- main_hitnews -->
+<ul>
+<li class="icon_gisalist3 ellipsis fBold"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002190008">프로야구 올스타전 김세희 아나운서 ‘여신 자태’ 올스타전 인증샷</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002175258">퓨처스리그 올스타전, 우천으로 노게임 선언……1군 올스타전은 7시 시작, 박찬호 은퇴식은?</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002194224">박찬호, 올스타전 알리는 시구로 은퇴무대 작별 인사…박찬호 부인 스펙보니?</a></li>
+<li class="icon_gisalist3 ellipsis" style="margin-bottom:10px;"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002174459">올스타 이태양 "초구는 무조건 직구"…특유의 배짱 과시</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002200936">프로야구 올스타전 김현수, 홈런 레이스 최다 홈런 기록으로 우승</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002200431">프로야구 퓨처스 올스타전, 이순철 아들 이성곤에게 '독설' 화제…이순철 아들 이성곤 "실력 안되니 외야 전향"</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002171132">7월 한국 FIFA 랭킹 한 단계 상승, 일본 '아시아 1위'…독일 세계 1위, 월드컵 순위와 비교했더니?</a></li>
+<li class="icon_gisalist3 ellipsis"><a class="f_hitList_list" href="/news2011/asp/newsbody.asp?code=0600&amp;key=20140718.99002170413">한국 축구, 9월에 두 차례 평가전…우루과이와 접촉</a></li>
+</ul>
+<!-- //main_hitnews -->
+</div>
+</div> <!-- hitListArea e -->
+<div id="bnr_rightmiddleArea">
+<!--ad realclick s-->
+<iframe frameborder="0" height="230px" scrolling="no" src="/service/banner/real_right_shopping.htm" width="100%"></iframe>
+<!--ad realclick e-->
+<!--ad dreamsearch s-->
+<iframe frameborder="0" height="200px" scrolling="no" src="/service/banner/dreams_right.htm" width="300px"></iframe>
+<!--ad dreamsearch e-->
+</div>
+<!--include weather-->
+<!--include r_kwdlist_code_00-->
+<!--include r_kwdlist_code_00_1-->
+<!--include r_clsslist_code_special-->
+<div class="blank_line"></div>
+<div id="sub_specialGisa">
+<script type="text/javascript"> 
+<!--
+    function sel_change() {
+        location.href="/news2011/asp/list.asp?code=1700&clss_cd=" + document.getElementById('sel_specialSeries').value;
+    }
+//-->
+</script>
+<dl class="left">
+<dd class="ellipsis"><a class="f_main_photonews" href="/news2011/asp/list.asp?code=1700&amp;clss_cd=111408    "><b>7·30보선 후보 릴레이 인터뷰</b></a></dd>
+<dt><a href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140718.22004203525"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0718/20140718.22004203525i1.jpg"/></a></dt>
+<dd class="ellipsis"><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140718.22004203525"> 부산 해운대·기장갑 새정치민주연합 윤준호</a></dd>
+</dl>
+<div class="sub_specialGisa_blank"><!-- 여백 --></div>
+<dl class="left">
+<dd class="ellipsis"><a class="f_main_photonews" href="/news2011/asp/list.asp?code=1700&amp;clss_cd=111408    "><b>7·30보선 후보 릴레이 인터뷰</b></a></dd>
+<dt><a href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140717.22004202239"><img alt="" border="0" class="photo_view" src="http://db.kookje.co.kr/news2000/photo/2014/0717/20140717.22004202239i1.jpg"/></a></dt>
+<dd class="ellipsis"><a class="f_main_photonews" href="/news2011/asp/newsbody.asp?code=0100&amp;key=20140717.22004202239"> 부산 해운대·기장갑 새누리당 배덕광</a></dd>
+</dl>
+<select class="sel_specialSeries" id="sel_specialSeries" name="sel_specialSeries" onchange="javascript:sel_change()">
+<option value="">기획시리즈 </option>
+<option value="111408">7·30보선 후보 릴레이 인터뷰</option>
+<option value="111404">경남지사 후보 집중 인터뷰</option>
+<option value="111403">부산시장 후보 집중 인터뷰</option>
+<option value="111406">부울경 광역단체장 후보 매니페스토 평가</option>
+<option value="111407">서병수호…부산을 확 바꾸자</option>
+<option value="111405">울산시장 후보 집중 인터뷰</option>
+</select>
+</div>
+<!--include r_clsslist_code-->
+<div class="blank_line"></div>
+<div id="sub_rightGisa">
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021040">강동수 칼럼 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140718.22022200311">  열심히 일하는데도 왜 가난해지는가</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140711.22022200904">  일본 할머니와 조선통신사</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021039">강동진 칼럼 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140704.22022202021">  2014년 7월의 소망 그리고 다짐</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140613.22022203126">  부산 남항을 찐~하게 사랑하자 그리고 소중히 가꾸자!</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021007">기고 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140717.22029193339">  한-아세안정상회의 부산 개최 의의 /김수일</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140710.22029193601">  우리나라에도 능력중심사회가 오고 있는가 /김시태</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021001">기자수첩 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=0200&amp;key=20140718.22013195644">  수도권만 행복한 행복주택 /정옥재</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=0300&amp;key=20140714.22012204308">  도지사 현장 방문 강행군, 오해 없도록 /김성룡</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021037">뉴스와 현장 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140717.22029193256">  '진도 씻김굿'은 끝나지 않았다 /이승렬</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140710.22029193457">  복지와 재정 건전성 /김태경</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021006">도청도설 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193028">  버스 타는 차관</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140718.22022200108">  미래 퇴직금</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021038">박희봉 칼럼 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140715.22031195817">  땅바닥에서 명예를 찾아야 하나?</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140708.22031195342">  박근혜의 동남풍</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021002">사설 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193017">  도시철도 재난 대처 이대로는 안 된다</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140719.22019193002">  쌀 개방, 강력한 농업 진흥책 전제돼야</a><dd>
+</dd></dd></dd></dd></dl>
+<dl>
+<dt><a href="/news2011/asp/list.asp?code=1700&amp;clss_cd=021032">장병윤 칼럼 <u>[전체보기]</u></a></dt>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140325.22031195838">  유권자, 혁명하라</a><dd>
+<dd class="ellipsis icon_gisalist4"><a class="f_sub_rightGisa" href="/news2011/asp/newsbody.asp?code=1700&amp;key=20140311.22031200652">  '절망의 시대'를 건너는 법</a><dd>
+</dd></dd></dd></dd></dl>
+</div>
+<!-- include main_notice-->
+<div class="blank_line"></div>
+<div id="main_event">
+<!-- main_notice -->
+<div class="left">
+<a href="/news2011/asp/list.asp?code=1800"><img alt="알림" border="0" src="/kookje/images/main_title_notice.gif"/></a>
+</div>
+<p class="move_area right">
+<a href="#prev" onclick="OnPrev('event',3); return false;"><img alt="이전" border="0" src="/kookje/images/btn_previous_photonews.gif"/></a>
+<a href="#next" onclick="OnNext('event',3); return false;"><img alt="다음" border="0" src="/kookje/images/btn_next_photonews.gif"/></a>
+</p>
+<div id="tabNews_event_1" style="display:block;">
+<ul>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140718.22001212141">본사 사령 (7월 17일 자)</a></li>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140717.22002201620">렛츠런파크 부산경남과 함께하는 16회 국제신문 사진공모전 31일 마감</a></li>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140711.22008204343">2014 부산시민건강교실</a></li>
+</ul>
+</div>
+<div id="tabNews_event_2" style="display:none;">
+<ul>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140709.22001204430">2014 국제환경에너지산업전 개최</a></li>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140707.22001203226">제7기 부울경 정치아카데미 개설</a></li>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140703.22002204119">2014 월드문화캠프 및 제4회 세계청소년부장관포럼</a></li>
+</ul>
+</div>
+<div id="tabNews_event_3" style="display:none;">
+<ul>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="/news2011/asp/newsbody.asp?code=1800&amp;key=20140702.22008203408">2014부산시민건강교실</a></li>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="#"></a></li>
+<li class="icon_gisalist2 ellipsis"><a class="f_middleRight_list" href="#"></a></li>
+</ul>
+</div>
+<!-- //main_notice -->
+<dl>
+<!--<dd><a href="/news2011/asp/newsbody.asp?code=1800&key=20131112.22001215135"><img src="/news2011/banner/banner_literature.jpg" alt="2014 신춘문예"></a></dd>-->
+<dd><a href="http://www.humetro.busan.kr/program/event/event_list.php" rel="nofollow" target="_black"><img alt="휴메트로" src="/news2011/banner/humetro.jpg" width="260px"/></a></dd>
+<dd><a href="http://www.gsnd.net/" rel="nofollow" target="_black"><img alt="경상남도" src="/news2011/banner/gsnd.gif" width="260px"/></a></dd>
+<dd><a href="http://www.changwon.go.kr/" rel="nofollow" target="_black"><img alt="창원" src="/news2011/banner/changwon.gif" width="260px"/></a></dd>
+<dd><a href="http://www.miryang.go.kr/main/" rel="nofollow" target="_black"><img alt="미르피아 밀양" src="/news2011/banner/miryang.jpg" width="260px"/></a></dd>
+<dd><a href="/news2011/asp/list.asp?kwd=유콘서트"><img alt="유콘서트" src="/news2011/banner/ucon_0722.jpg" width="260px"/></a></dd>
+</dl>
+</div>
+<!--iframe twt-->
+<div class="blank_line"></div>
+<div id="main_busaninews">
+<iframe border="0" frameborder="0" height="388px" scrolling="no" src="/news2011/twt.htm" style="background:transparent;" width="280px"></iframe>
+</div>
+<div class="blank_line"></div>
+<div id="main_site">
+<dl>
+<dd><a href="http://www.storybusan.com" target="_blank"><img alt="스토리텔링협의회 홈페이지" src="/news2011/banner/banner_storybusan.jpg" width="250px"/></a></dd>
+<dd><a href="http://www.greenwalking.co.kr" target="_blank"><img alt="걷고 싶은 부산 그린워킹 홈페이지" src="/news2011/banner/banner_greenwalking.jpg" width="250px"/></a></dd>
+<dd><a href="http://www.kookje.co.kr/kookje/culture_kookje.asp" target="_blank"><img alt="국제신문 대관안내" height="50px" src="/news2011/banner/banner_rent.gif" width="250px"/></a></dd>
+</dl>
+</div>
+<!--shopping-->
+<div id="main_shopping"></div>
+<div class="blank_30"></div>
+<!--include right_sub END-->
+ <!-- rightArea e -->
+ <!-- topArea e -->
+ <!-- Contents e -->
+<div class="center" id="footer"> <!-- footer s -->
+<div id="footer_service">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td><strong>제휴사</strong></td>
+<td class="right_line"><a href="http://www.storybusan.com" target="_blank">부산스토리텔링협의회</a></td>
+<!--<td class="right_line"><a href="http://busanculture.com/" target="_blank">어린이문화체험학교</a></td>-->
+<td><a href="http://www.fobst.org/" target="_blank">부산과학기술협의회</a></td>
+<td><a href="http://www.greenwalking.co.kr/" target="_blank">걷고싶은부산</a></td>
+<td><a href="http://www.cbs.co.kr/nocut/" rel="nofollow" target="_blank">노컷뉴스</a></td>
+<td><strong>제휴서비스</strong></td>
+<td class="right_line"><a href="http://kookje.incruit.com/" rel="nofollow" target="_blank">구인구직</a></td>
+<td class="right_line"><a href="http://kookje.ykbook.com/" rel="nofollow" target="_blank">도서</a></td>
+<td class="right_line"><a href="http://sol.r114.co.kr/scripts2/outsite/kookje/default.asp?only=138" rel="nofollow" target="_blank">부동산</a></td>
+<td><a href="http://wefnews.kookje.co.kr/" target="_blank">온포스-스타일</a></td>
+<td><strong><a href="/kookje/culture_kookje.asp" target="_self">국제신문대관안내</a></strong></td>
+</tr>
+</table>
+</div>
+<div id="footer_intro">
+<div class="footer_left"><a href="/"><img alt="국제신문" border="0" src="/kookje/images/footer_logo_new.gif"/></a></div>
+<div class="footer_right_top">
+<ul class="footer_top">
+<li><a class="f_footer_top" href="/kookje/ceo_message.asp" target="_blank">회사소개</a></li>
+<li><a class="f_footer_top" href="/kookje/cor_formation.asp" target="_blank">전화안내</a></li>
+<li><a class="f_footer_top" href="/kookje/adver_ad.asp" target="_blank">광고안내</a></li>
+<li><a class="f_footer_top" href="/kookje/marketing_request.asp">구독신청</a></li>
+<li><a class="f_footer_top" href="/bbs/board_list_2.asp?board_no=1" target="_blank">독자투고</a></li>
+<li><a class="f_footer_top" href="/bbs/board_list_2.asp?board_no=2" target="_blank">기사제보</a></li>
+<li><a class="f_footer_top" href="/kookje/admin/kookje_guide.asp"><strong style="color:#CC0000">개인정보취급방침</strong></a></li>
+<li><a class="f_footer_top" href="/news2011/special_m/opinion/opinion.asp" target="_blank">고충처리</a></li>
+<li><a class="f_footer_top" href="http://m.kookje.co.kr/" target="_blank">모바일국제신문</a></li>
+</ul>
+</div>
+<div class="footer_right_bottom">
+<ul class="footer_top">
+<li>주소 : 부산광역시 연제구 중앙대로 1217</li>
+<li>대표전화 : 051)500-5114</li>
+<li>발행인/인쇄인/편집인 : 차승민</li>
+</ul>
+</div>
+</div>
+<p>Copyright ⓒ kookje.co.kr, All rights reserved.</p>
+</div> <!-- footer e --><iframe frameborder="0" height="0" id="frm_hitCount" name="frm_hitCount" src="/news2011/asp/hit_cnt.asp?key=20140719.22019193112" width="0"></iframe>
+<!-- wrapper e -->
+<iframe frameborder="0" height="0" id="frm_dummy" name="frm_dummy" src="" width="0"></iframe>
+<img src="http://cp.news.search.daum.net/api/publish.json?nurl=http%3A%2F%2Fwww%2Ekookje%2Eco%2Ekr%2Fnews2011%2Fasp%2Fnewsbody%2Easp%3Fcode%3D1700%26key%3D20140719%2E22019193112&amp;xml_url=http%3A%2F%2Fwww%2Ekookje%2Eco%2Ekr%2Fnews2011%2Fasp%2Fnewsbody%5Fxml%2Easp%3Fcode%3D1700%26key%3D20140719%2E22019193112&amp;channel=society" style="display:none;"/>
+
+
+<!--라이브리-->
+<script type="text/javascript">
+var consumer_seq	= "551"; // 고정
+var livere_seq		= "13665"; // 고정
+var smartlogin_seq	= "614";	// 고정 
+var title = "[아침숲길] 농부 이야기 /조말선";
+var refer = "www.kookje.co.kr/news2011/asp/newsbody.asp?code=1700&key=20140719.22019193112";
+
+livereReply = new Livere( livere_seq , refer , title );
+livereLib.start();
+</script>
+<!--라이브리-->
+<!--ad realclick s-->
+<div class="banner_1024_1024_1357793488" style="text-align:center;clear:both"><span id="realclick_view2_1357793488"></span>
+<!--<script src="http://mdimg.realclick.co.kr/js/jquery-1.6.2.min.js"></script>-->
+<script type="text/javascript">var rcBody=""; var bOffset=0; function rc_ad_display(posi){var rcAdStr="";try{if(rcHead!="")rcAdStr+=rcHead;if(rcBody!="")rcAdStr+=rcBody;if(rcFoot!="")rcAdStr+=rcFoot;if(rcAdStr!=""){document.getElementById(posi).innerHTML=rcAdStr;}}catch(e){}}function loadJS(url,posi,charset){var hd=document.getElementsByTagName('head')[0];var sc=document.createElement('script');sc.type='text/javascript';if(charset!=null){sc.charset="euc-kr";}var ld=false;sc.onreadystatechange=function(){try{if(this.readyState=='loaded'||this.readyState=='complete'){if(ld)return;ld=true;rc_ad_display(posi);}}catch(e){}};sc.onload=function(){rc_ad_display(posi);};sc.src=url;hd.appendChild(sc);}function load_rc_ad2(sevn,objf,posi){var adSrc="http://"+sevn+".realclick.co.kr/"+objf;loadJS(adSrc,posi,'euc-kr');}
+$(document).ready(function(){ var open_height2=$('#realclick_view2_1357793488').offset().top-50; var open=false; $(window).scroll(function(){ if(rcBody !="") { open_height2=$('#realclick_view2_1357793488').offset().top; } var distanceTop=open_height2-$(window).height(); if($(window).scrollTop()>=distanceTop){ if(open=="0"){open=true;load_rc_ad2('adv','ad_tpl/headcopy.rc?dsn=1&mcode=ZnNjcl9rb29ramUx','realclick_view2_1357793488');var position = $(".banner_1024_1024_1357793488").offset();$( 'html, body' ).animate( { scrollTop: position.top-bOffset }, 1000 );}}})});</script></div>
+<!--ad realclick e-->

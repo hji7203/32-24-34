@@ -1,0 +1,849 @@
+<a name="top">
+<html>
+<head>
+<title>아시아뉴스통신 - 새롭게 함께하는 중심 언론!!!</title>
+<meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+<!-- RSS 피드 링크 -->
+<link href="asianews_rss.php" rel="alternate" title="아시아뉴스 RSS 피드" type="application/rss+xml"/>
+<!-- 스타일시트 파일 링크처리 -->
+<link href="css/css.css" rel="stylesheet" type="text/css">
+<link href="css/style.css" rel="stylesheet" type="text/css">
+<link href="css/2014.css" rel="stylesheet" type="text/css">
+<!-- 자바스크립트 파일 링크처리 -->
+<script language="javascript" src="js/asianews.js" type="text/javascript"></script>
+<script language="javascript" src="js/flash_patch.js" type="text/javascript"></script>
+<script language="javascript" src="js/layer_move.js" type="text/javascript"></script>
+<script language="javascript" src="js/calendar.js" type="text/javascript"></script>
+<script charset="utf-8" language="JavaScript" src="/js/vw_webreader.js" type="text/javascript"></script>
+<script charset="utf-8" language="JavaScript" src="/js/vw_webreader_navi.js" type="text/javascript"></script>
+<script language="JavaScript" type="text/javascript">
+<!--
+
+    vw_vt_wb_keydown_mouseover_init();
+    vw_vt_wb_load_cookie_saved_data();
+    // vw_vt_wb_navi_init();
+    // vw_vt_wb_fly_init_float_layers('vw_vt_wb_control_layer');
+    vw_vt_wb_set_mouse_on_sizeup(0);
+
+//-->
+</script>
+<script type="text/javascript">
+<!--
+
+function Set_Cookie( name, value, expires, path, domain, secure )
+{
+	// set time, it's in milliseconds
+	var today = new Date();
+	today.setTime( today.getTime() );
+
+	/*
+	if the expires variable is set, make the correct
+	expires time, the current script below will set
+	it for x number of days, to make it for hours,
+	delete * 24, for minutes, delete * 60 * 24
+	*/
+	if ( expires )
+	{
+		expires = expires * 86400;
+	}
+	var expires_date = new Date( today.getTime() + (expires) );
+
+	document.cookie = name + "=" +escape( value ) +
+	( ( expires ) ? ";expires=" + expires_date.toGMTString() : "" ) +
+	( ( path ) ? ";path=" + path : "" ) +
+	( ( domain ) ? ";domain=" + domain : "" ) +
+	( ( secure ) ? ";secure" : "" );
+}
+
+function GetCookie(cKey) {
+    var allcookies = document.cookie;
+     //alert(allcookies);
+    var cookies = allcookies.split("; ");
+    for (var i = 0; i < cookies.length; i++) {
+        var keyValues = cookies[i].split("=");
+        if (keyValues[0] == cKey) {
+            return unescape(keyValues[1]);
+        }
+    }
+    return "";
+}
+
+
+function toggleReaderOnOff(src) {
+	var img = src.firstChild;
+	if (img.src=='http://www.anewsa.com/image/top_off.gif' || img.src=='http://anewsa.com/image/top_off.gif') {
+		img.src = 'http://www.anewsa.com/image/top_on.gif';
+	}
+	else
+  {
+      if(GetCookie("news_member_id")) {
+        img.src = 'http://www.anewsa.com/image/top_off.gif';
+      }
+      else {
+        alert('로그인하셔야 이용할 수있습니다');
+        return false;
+      }
+  }
+  vw_vt_wb_change_sound_on_off();
+  return false;
+}
+
+
+var _speed_of_sound = 100;
+
+
+function setSpeedUp() {
+	if (_speed_of_sound==400) {
+		return false;
+	}
+	_speed_of_sound+=10;
+	vw_vt_wb_set_speed (_speed_of_sound);
+	var elm = document.getElementById('speed_of_sound');
+	elm.innerHTML = _speed_of_sound;
+	Set_Cookie('vw_vt_wb_speed', _speed_of_sound, 3, '/', '.anewsa.com');
+	return false;
+}
+
+function setSpeedDown() {
+	if (_speed_of_sound==50) {
+		return false;
+	}
+	_speed_of_sound-=10;
+	vw_vt_wb_set_speed (_speed_of_sound);
+	var elm = document.getElementById('speed_of_sound');
+	elm.innerHTML = _speed_of_sound;
+	Set_Cookie('vw_vt_wb_speed', _speed_of_sound, 3, '/', '.anewsa.com');
+	return false;
+}
+
+//-->
+</script>
+<!-- 구글 로그분석 시작 -->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-30923731-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+<!-- 구글 로그분석 끝-->
+</link></link></link></meta></head>
+<body leftmargin="0" marginheight="0" marginwidth="0" topmargin="0">
+<center>
+<div style="width:100%; height:30px; border-bottom:1px #e5e5e5 solid; ">
+<div style="width:980px; height:30px; margin:0 auto; background-color:#ffffff;">
+<!-- <div style="padding-top:10px; float:left;" class="head_font_01">아시아뉴스통신을 시작페이지</div> -->
+<!-- 뉴스속보 -->
+<div align="left" class="head_font_02" style="padding-top:7px; width:700px; float:left;"> 속보 <style type="text/css">
+span.tickls { color: #0A3C71; font-weight: bold; }
+a.tickl {
+	color: #555;
+	font: 12px Sans-Serif, Helvetica, Geneva, Tahoma, Arial Cyr, Arial, Times New Roman;
+	text-decoration: none;
+	font-weight:bold;
+}
+
+
+</style>
+<script language="JavaScript" type="text/javascript"><!-- <![CDATA[
+// Ticker startup
+function startTicker()
+{
+  // Define run time values
+  theCurrentStory  = -1;
+  theCurrentLength = 0;
+  // Locate base objects
+  if (document.getElementById) {
+    theAnchorObject = document.getElementById("tickerAnchor");
+    runTheTicker();
+  }
+  else {
+    document.write("<style>.ticki{display:none;}.ticko{border:0px; padding:0px;}</style>");
+    return true;
+  }
+}
+// Ticker main run loop
+function runTheTicker()
+{
+  var myTimeout;
+  // Go for the next story data block
+  if(theCurrentLength == 0) {
+    theCurrentStory++;
+    theCurrentStory = theCurrentStory % theItemCount;
+    theStorySummary = theSummaries[theCurrentStory].replace(/&quot;/g,'"');
+    theTargetLink   = theSiteLinks[theCurrentStory];
+    theAnchorObject.href = theTargetLink;
+    thePrefix = "<span class=\"tickls\">" + theLeadString + "</span>";
+  }
+  // Stuff the current ticker text into the anchor
+  theAnchorObject.innerHTML = thePrefix +
+    theStorySummary.substring(0,theCurrentLength) + whatWidget();
+  // Modify the length for the substring and define the timer
+  if(theCurrentLength != theStorySummary.length) {
+    theCurrentLength++;
+    myTimeout = theCharacterTimeout;
+  }
+  else {
+    theCurrentLength = 0;
+    myTimeout = theStoryTimeout;
+  }
+  // Call up the next cycle of the ticker
+  setTimeout("runTheTicker()", myTimeout);
+}
+// Widget generator
+function whatWidget()
+{
+  if(theCurrentLength == theStorySummary.length) {
+    return theWidgetNone;
+  }
+  if((theCurrentLength % 2) == 1) {
+    return theWidgetOne;
+  }
+  else {
+    return theWidgetTwo;
+  }
+}
+// ]]> -->
+</script>
+<span class="ticki"><a class="tickl" href="#" id="tickerAnchor" target="_top"></a></span>
+<script language="JavaScript" type="text/javascript">
+<!--
+var theCharacterTimeout = 60;	// 타이핑 속도
+var theStoryTimeout     = 4000;	// 기사 간격
+var theWidgetOne        = "_";
+var theWidgetTwo        = "-";
+var theWidgetNone       = "";
+var theLeadString       = "";
+
+var theSummaries = new Array();
+var theSiteLinks = new Array();
+var theItemCount = 0;
+
+
+
+startTicker();
+
+//-->
+</script></div>
+<div style="padding-top:6px; position:relative; float:right;">
+<script type="text/javascript">
+if(GetCookie("news_member_id")) {
+	document.write("<a href='member_logout.php'><img src='image/top_logout.gif'></a> <a href='/member.php?mode=mem_mod'><img src='/image/top_modify.gif'></a>");
+} else {
+	document.write("<a href='login_page.php'><img src='image/top_login.gif'></a> <a href='/html_file.php?file=normal_regist.html&file2=member_default.html'><img src='/image/top_join.gif'></a>");
+}
+</script>
+</div>
+</div>
+</div>
+<table align="center" border="0" cellpadding="0" cellspacing="0" width="980">
+<tr>
+<form action="search.php?action=search" method="get" name="search_form" style="margin:0px">
+<td colspan="2" style="padding-top:20px;" width="980">
+<table border="0" cellpadding="0" cellspacing="0" width="980">
+<tr>
+<td align="left" valign="top" width="354"><!--  255*60 <img src="../img2014/head_sample_01.gif" width="255" height="60" border="0">--></td>
+<td align="left" valign="top" width="363"><a href="/index.php"><img border="0" height="54" src="../img2014/logo.gif" width="268"/></a></td>
+<td align="right" style="padding-top:18px;" valign="top" width="263">
+<table border="0" cellpadding="0" cellspacing="0" width="263">
+<tr>
+<td align="center" style="border:1px #cccccc solid; border-right:none;"><input id="textfield" name="search_word" style="width:180px; border:none;" type="text"/></td>
+<td height="35" width="61"><input border="0" height="35" src="../img2014/search_btn.gif" type="image" width="61"/></td>
+</tr>
+</table></td>
+</tr>
+</table>
+</td>
+</form>
+</tr>
+<tr><td height="16"></td></tr>
+<tr>
+<td height="37" style="border-top:2px #2d2d2d solid; border-bottom:1px #14b1e7 solid;" width="696"><table border="0" cellpadding="0" cellspacing="0" width="696">
+<tr>
+<td height="37" width="52"><a href="/index.php"><img height="37" src="../img2014/head_menu_01.gif" width="52"/></a></td>
+<td height="37" width="68"><a class="menu" href="/main_section_new.php?thread=12"><img height="37" src="../img2014/head_menu_02.gif" width="68"/></a></td>
+<td height="37" width="67"><a class="menu" href="/main_section_new.php?thread=11"><img height="37" src="../img2014/head_menu_03.gif" width="67"/></a></td>
+<td height="37" width="62"><a class="menu" href="/main_section_new.php?thread=10"><img height="37" src="../img2014/head_menu_04.gif" width="62"/></a></td>
+<td height="37" width="63"><a class="menu" href="/main_section_new.php?thread=09"><img height="37" src="../img2014/head_menu_05.gif" width="63"/></a></td>
+<td height="37" width="65"><a class="menu" href="/local.php"><img height="37" src="../img2014/head_menu_06.gif" width="65"/></a></td>
+<td height="37" width="64"><a class="menu" href="/main_section_new.php?thread=05"><img height="37" src="../img2014/head_menu_07.gif" width="64"/></a></td>
+<td height="37" width="67"><a class="menu" href="/section.php?thread=07r05"><img height="37" src="../img2014/head_menu_08.gif" width="67"/></a></td>
+<td height="37" width="60"><a class="menu" href="/main_section_new.php?thread=07"><img height="37" src="../img2014/head_menu_09.gif" width="60"/></a></td>
+<td height="37" width="71"><a class="menu" href="/main_section_new.php?thread=06"><img height="37" src="../img2014/head_menu_10.gif" width="71"/></a></td>
+<td align="left" height="37" width="57"><a class="menu" href="/html_file.php?file=normal_only_photo.html&amp;file2=default_photo_new.html&amp;thread=01"><img height="37" src="../img2014/head_menu_11.gif" width="57"/></a></td>
+</tr>
+</table></td>
+<td style="border-top:2px #2d2d2d solid; border-bottom:1px #14b1e7 solid;" valign="top" width="284"> <div align="right"><img align="absmiddle" alt="07월" border="0" src="img/date/mon_07.gif"><img align="absmiddle" alt="19일" border="0" src="img/date/day_19.gif"><img align="absmiddle" alt="sat" border="0" src="img/date/day2_sat.gif"/></img></img></div></td>
+</tr>
+<tr>
+<td bgcolor="#f4f4f4" colspan="2" height="28" valign="middle" width="980">
+<table border="0" cellpadding="0" cellspacing="0" width="980">
+<tr><td height="3"></td></tr>
+<tr>
+<td align="left" height="20" valign="middle" width="980">
+<div class="head_font_04" style="margin-left:3px;">지역뉴스 :  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%BC%AD%BF%EF" target="_self">서울</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B0%E6%B1%E2%B3%B2%BA%CE" target="_self">경기남부</a>   
+		  <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B0%E6%B1%E2%BA%CF%BA%CE" target="_self">경기북부</a>  
+		  <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B0%E6%B1%E2%BC%AD%BA%CE" target="_self">경기서부</a>   
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%C0%CE%C3%B5" target="_self">인천</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%C3%E6%BA%CF" target="_self">충북</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B4%EB%C0%FC%2F%C3%E6%B3%B2" target="_self">대전/충남</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B0%AD%BF%F8" target="_self">강원</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%C0%FC%BA%CF" target="_self">전북</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B1%A4%C1%D6%2F%C0%FC%B3%B2" target="_self">광주/전남</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B4%EB%B1%B8%2F%B0%E6%BA%CF" target="_self">대구/경북</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%B0%E6%B3%B2" target="_self">경남</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%BA%CE%BB%EA" target="_self">부산</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%BF%EF%BB%EA" target="_self">울산</a>  
+          <a class="head_font_04" href="http://www.anewsa.com/local.php?area=%C1%A6%C1%D6" target="_self">제주</a>
+</div>
+</td>
+<td align="right" height="20" valign="middle" width="258">
+<table border="0" cellpadding="0" cellspacing="0">
+<tr>
+<td align="left" class="head_font_04" valign="middle" width="33"><a class="head_font_04" href="/main_section.php?thread=04">칼럼</a></td>
+<td><img height="10" src="../img2014/head_line_01.gif" width="1"/></td>
+<td align="center" class="head_font_04" valign="middle" width="43"><a class="head_font_04" href="/main_section.php?thread=03">사람</a></td>
+<td><img height="10" src="../img2014/head_line_01.gif" width="1"/></td>
+<td align="center" class="head_font_04" valign="middle" width="54"><a class="head_font_04" href="/section.php?thread=03r02">인터뷰</a></td>
+<td align="left" height="28" valign="middle" width="25"><a href="http://twitter.com/anewsa" target="_blank"><img border="0" height="20" src="../img2014/head_t_btn.gif" width="20"/></a></td>
+<!-- td width="25" height="28" align="left" valign="middle"><img src="../img2014/head_f_btn.gif" width="20" height="20" /></td -->
+<td align="left" height="28" valign="middle" width="25"><a href="http://blog.naver.com/ana1177" target="_blank"><img border="0" height="20" src="../img2014/blog_001.gif" style="margin-right:3px;" width="20"/></a></td>
+</tr>
+</table></td>
+</tr>
+</table></td>
+</tr>
+</table>
+<br>
+<!-- 구글광고 기사상단 -->
+<script>
+function ad_none()
+{
+document.getElementById("ad_none").style.display = "none";
+}
+</script>
+<div align="center" class="ad_none" id="ad_none" style="margin:3px 0px 3px 0px;">
+<script type="text/javascript">
+<!--
+google_ad_client = "ca-pub-7046088277313316";
+/* 기사상단_970x90 */
+google_ad_slot = "4699412918";
+google_ad_width = 970;
+google_ad_height = 90;
+//-->
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+<a class="closeX" href="javascript:ad_none();"><img alt="닫기" border="0" height="8" src="../images/Btn_CloseX_NewsAd.gif" width="8"/></a>
+</div>
+<!-- 구글광고 기사상단끝 -->
+<!--/// 본문내용: 전체 [START] /////////////////////////////////////////////////////////////////////////////////-->
+<table border="0" cellpadding="0" cellspacing="0" width="980">
+<tr>
+<td valign="top" width="120">
+<div align="left" style="border: solid 1px #e1e1e1; margin-right:10px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7046088277313316";
+/* 120x600-1 */
+google_ad_slot = "7680124942";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+</div>
+<div align="left" style="border: solid 1px #e1e1e1; margin: 10px 10px 0px 0px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7046088277313316";
+/* 120&#42;60-2 */
+google_ad_slot = "2454429057";
+google_ad_width = 120;
+google_ad_height = 600;
+//-->
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+</div>
+<div align="left" style="border: solid 1px #e1e1e1;margin: 10px 10px 0px 0px;">
+<!-- real08 -->
+<iframe frameborder="0" height="600" hspace="0" marginheight="0" marginwidth="0" noresize="" scrolling="no" src="http://anewsa.com/_ad/real/real_08.html" vspace="0" width="120"></iframe>
+</div>
+</td>
+<td width="5"></td>
+<!--// 본문내용: 좌측 [END] ///////////////////////////////////////////////////////-->
+<!--// 본문내용: 중앙 [START] ///////////////////////////////////////////////////////-->
+<td valign="top" width="604">
+<!-- 위치 [START]-->
+<table border="0" cellpadding="0" cellspacing="0" height="28" style="border-bottom:1px solid #e2e5ea;" width="100%">
+<tr>
+<td><img aling="absmiddle" src="img/hn4_ico_nowlocate.gif"> <a href="">뉴스홈</a>  &gt; <a class="nowlocate" href="section.php?thread=09">사회</a> &gt; <a class="nowlocate" href="section.php?thread=09r02">사회일반</a></img></td>
+<td align="right"></td>
+<td align="right" width="120">
+<a href="javascript:changesize('+')"><img alt="글씨 키우기" src="/image/view_icon_up.gif"/></a>
+<a href="javascript:changesize('-')"><img alt="글씨 줄이기" hspace="3" src="/image/view_icon_down.gif"/></a>
+<a href="f_mail.php?action=add&amp;number=686740&amp;news_article=news_article&amp;title=메일" onclick="open('wait.html','hero','height=246,width=400')" target="hero"><img alt="메일로 보내기" src="/image/view_icon_mail.gif"/></a>
+<a href="print_paper.php?number=686740&amp;news_article=news_article" onclick="open('wait.html','print_paper','height=480,width=720,resizable=yes,scrollbars=yes')" target="print_paper"><img alt="뉴스프린트하기" hspace="3" src="/image/view_icon_print.gif"/></a>
+<a href="my_zzim.php?action=add&amp;number=686740"><img alt="뉴스스크랩하기" src="/image/view_icon_scrap.gif"/></a></td>
+</tr>
+</table>
+<!-- 위치 [END]-->
+<table cellpadding="0" cellspacing="0" style="margin:15 0 0 0;" width="100%">
+<tr>
+<td><!-- real01 --><iframe align="center" frameborder="0" height="150" hspace="0" marginheight="0" marginwidth="0" noresize="" scrolling="no" src="http://anewsa.com/_ad/real/real_01.html" vspace="0" width="604"></iframe></td>
+</tr>
+</table><hr/>
+<table cellpadding="0" cellspacing="0" style="margin:15 0 0 0;" width="100%">
+<tr>
+<td class="fontSize13_blue" height="24"><!--DAUM_TITLE-->순창군 클린순창 만들기에 금과면사회단체 나섰다<!--/DAUM_TITLE--><br><font class="head_subtitle"></font></br></td></tr></table></td></tr></table></br></center></body></html></a>
+
+<tr>
+<td align="right" height="30">
+<table>
+<tr>
+<td><b>기사입력</b></td>
+<td class="fontSize09_gray">: <!--DAUM_REGDATE-->2014년07월19일 10시55분<!--/DAUM_REGDATE--></td>
+</tr>
+</table>
+</td>
+</tr>
+
+<!--DAUM_CONTENTS-->
+<table>
+<!-- 			<tr>
+				<td height='40'></td>
+			</tr> -->
+<tr>
+<td valign="top">
+<div id="ct">(아시아뉴스통신=<a href="mailto:okoil49@hanamil.net">김중연</a> 기자)
+						
+						<p>
+<table border="0" cellpadding="0" cellspacing="0" width="30">
+<tbody>
+<tr>
+<td><img alt="" src="http://www.anewsa.com/news_images/2014/07/19/mark/20140719100554.jpg"/></td>
+</tr>
+<tr>
+<td style="color: #3d5681; word-break: break-all; padding-top: 5px"> 순창군 금과면 주민들이 클린순창만들기를 다짐하는 모습.(사진제공=순창군)</td>
+</tr>
+</tbody>
+</table>
+<br/>
+ 전북순창군 금과면(면장 권재봉)이 면민들에게 클린순창 분위기를 조성하고, 찾아오는 관광객들에게 청정이미지를 제고하기 위해 ‘사회단체 클린순창 만들기’ 회의를 개최했다.<br/>
+  <br/>
+ 이날 회의는 지난 17일 금과면사무소 회의실에서 관내 주요 9개 사회단체의 대표와 총무 등 20여명이 참석한 가운데, 사회단체별로 적합한 클린순창만들기 추진과제 발굴에 대해 논의했다.<br/>
+  <br/>
+ 회의를 마친 후에는 팔덕쓰레기위생매립장을 방문해 매립장과 현 쓰레기 실태에 대한 설명을 듣고 현장 견학을 했다.<br/>
+  <br/>
+ 회의에서는 매월 셋째주 수요일을 금과 Clean Day」로 지정하고, 모든 행사시 1회용품 사용자제, 도민체전대비 성화봉송로 환경정비 등을 안건으로 올려, 사회단체 모두가 적극 동참할 것을 결의했다.<br/>
+  <br/>
+ 또 이장협의회, 자율방재단, 금과.아미 산악회, 딸기.메론작목반, 새마을부녀회, 아미농악회 등 각 사회단체별로 과제를 정해 이를 실천해 나가기로 의견을 모았다.<br/>
+  <br/>
+ 권재봉 면장은 “예로부터 금과면은 예와 멋의 고장이라 할 정도로 전통과 품격을 지켜온 곳”이라면서 “앞으로도 깨끗한 금과만들기를 통해 지역주민과 관광객들에게 청정한 순창이미지를 적극 알리겠다”고 밝혔다.</p>
+</div>
+</td>
+</tr>
+</table>
+<!--/DAUM_CONTENTS-->
+<p align="center">
+<!-- 기자소개 [START] -->
+<!-- 
+		<table cellspacing='0' cellpadding='0' width='100%' height='86' bgcolor='#f8f8f8' style='margin:10 0 5 0;'>
+			<tr>
+				<td width='7'></td>
+				<td width='85' align='center'>
+					<img src='gija_photo/okoil49.JPG' width='70' height='85' class='border'>
+				</td>
+				<td>
+				<a href='mailto:okoil49@hanamil.net'><a href=mailto:okoil49@hanamil.net>김중연</a></a>
+				
+				<br>제보전화 : 1644-3331</font></td>
+				<td align='right'>		<a href=search.php?action=search&search_writer=김중연&page=1><img src='/image/more_news.gif' hspace='10' alt='이기자의 다른뉴스보기'></a></td>
+			</tr>
+		</table>
+	 -->
+<!-- 기자소개 [END] -->
+</p>
+<!-- 로또 -->
+<!-- <p style="margin-top:30px;"><hr style="height: 1; color: #ebebeb;"></p> -->
+<p align="left" style="margin-top:45px;"><a href="http://www.lottorich.co.kr/event/landing/asiaetextG.html?xad=anewsa" target="_blank"><span style="font-size:14px; font-weight:bold;"> ▶ 전문가 '로또, 자동으로 살 거면 하지 마라!' </span></a></p>
+<!-- 나우센스 시작 -->
+<!-- 나우센스 끝 -->
+<table cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td align="center" height="30">[ 저작권자 © 아시아뉴스통신. 무단 전재 및 재배포금지]</td>
+</tr>
+<tr>
+<td align="center">
+<!-- 오엠넷 <IFRAME src="http://wec.co.kr/banner/anewsa_600300.html" NORESIZE SCROLLING="no" HSPACE="0" VSPACE="0"
+FRAMEBORDER="0" MARGINWIDTH="0" MARGINHEIGHT="0" WIDTH="600" HEIGHT="300" align="center"></IFRAME> -->
+<br/>
+<!-- real_05 -->
+<span id="realclick_view"></span>
+<script src="http://mdimg.realclick.co.kr/js/jquery-1.6.2.min.js"></script>
+<script type="text/javascript">
+
+function rc_ad_display(posi){var rcAdStr="";try{if(rcHead!="")rcAdStr+=rcHead;if(rcBody!="")rcAdStr+=rcBody;if(rcFoot!="")rcAdStr+=rcFoot;if(rcAdStr!=""){document.getElementById(posi).innerHTML=rcAdStr;}}catch(e){}}
+
+function loadJS(url,posi,charset){var hd=document.getElementsByTagName('head')[0];var sc=document.createElement('script');sc.type='text/javascript';if(charset!=null){sc.charset="euc-kr";}
+
+var ld=false;sc.onreadystatechange=function(){try{if(this.readyState=='loaded'||this.readyState=='complete'){if(ld)return;ld=true;rc_ad_display(posi);}}
+
+catch(e){}};sc.onload=function(){rc_ad_display(posi);};sc.src=url;hd.appendChild(sc);}
+
+function load_rc_ad(sevn,objf,posi){var adSrc="http://"+sevn+".realclick.co.kr/"+objf;loadJS(adSrc,posi,'euc-kr');}
+
+$(document).ready(function(){ var open_height=$('#realclick_view').offset().top; var open=false; $(window).scroll(function(){ var distanceTop=open_height-$(window).height(); if($(window).scrollTop()>distanceTop){if(open=="0"){open=true;load_rc_ad('click','ad_tpl/headcopy.rc?dsn=1&mcode=YW5ld3M0','realclick_view');}}})});
+</script>
+<br/>
+</td>
+</tr>
+<tr>
+<td align="center"><!-- 더블엠 --><iframe frameborder="0" height="220" scrolling="no" src="http://www.anewsa.com/ad/about_anewsa_shopbox.html" width="604"></iframe></td>
+</tr>
+<tr>
+<td align="center" height="15"></td>
+</tr>
+</table>
+<!-- 관련기사 [START] -->
+<table><tr><td width="27"><img src="img/hn4_ico_alarm.gif"/></td><td>관련기사가 없습니다</td></tr></table>
+<!-- 관련기사 [END] -->
+<br/>
+<!-- 덧글 리스트[START]-->
+<table>
+<tr>
+<td align="center" style="margin:3px 0px 7px 0px;">
+<script type="text/javascript"><!--
+google_ad_client = "ca-pub-7046088277313316";
+/* 기사하단-링크468&#42;15 */
+google_ad_slot = "1285679213";
+google_ad_width = 468;
+google_ad_height = 15;
+//-->
+</script>
+<script src="http://pagead2.googlesyndication.com/pagead/show_ads.js" type="text/javascript">
+</script>
+</td>
+</tr>
+<tr><td><!-- <div><img src='/image/reply.gif'></div> --></td></tr>
+<tr>
+<td></td>
+</tr>
+<!-- <tr>
+				<td align="center" style="padding:4 0 7 0;"><font style='font-size:11px'><font color='black'  style='font-size:12px'>[</font><b><font color='red'  style='font-size:12px'>1</font></b><font color='black'  style='font-size:12px'>]</font></font></td>
+			</tr> -->
+<tr>
+<td>
+<!-- <table width="100%" border="0">
+				<tr>
+					<td height=30 style="padding:10 0 10 10 ; word-wrap:break-word;"></td>
+				</tr>
+				<tr>
+					<td  background=img/img_dot.gif height=1></td>
+				</tr>
+				<tr>
+					<td height=30 style="padding:10 0 10 10 ; word-wrap:break-word;"></td>
+				</tr>
+				<tr>
+					<td height=30 style="padding:10 0 10 10 ; word-wrap:break-word;">
+
+                    </td>
+				</tr>				
+                
+                </table> -->
+</td>
+</tr>
+</table>
+<!-- 덧글 리스트[END]-->
+
+<!--// 본문내용: 중앙 [END] ///////////////////////////////////////////////////////-->
+<td width="10"></td>
+<!--// 본문내용: 우측 [START] ///////////////////////////////////////////////////////-->
+<td align="right" valign="top">
+<!-- 배너 
+		<table width="220" cellspacing="0" cellpadding="0" style='margin:0 0 0 0;'>
+			<tr>
+				<td>
+					
+				</td>
+			</tr>
+		</table>
+        <!-- -->
+<!--// 많이 본 뉴스 [START] -->
+<table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 0 0;" width="220">
+<tr>
+<td class="sub_hit" height="26">많이 본 기사</td>
+</tr>
+<tr>
+<td align="center" height="1">
+<table bgcolor="#CCCCCC" border="0" cellpadding="0" cellspacing="0" height="1" width="220">
+<tr><td align="center" height="1"></td></tr>
+</table>
+</td>
+</tr>
+<tr><td height="10"></td></tr>
+<tr>
+<td style="padding-top:5px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="220">
+<tr>
+<td width="10">·</td>
+<td class="poll" height="20"><a class="poll" href="detail.php?number=684201&amp;thread=09r02">인성회복국민운동본부 창립식 및 기..</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top:5px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="220">
+<tr>
+<td width="10">·</td>
+<td class="poll" height="20"><a class="poll" href="detail.php?number=685598&amp;thread=11r02">전북도의회 313회 임시회 개최</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top:5px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="220">
+<tr>
+<td width="10">·</td>
+<td class="poll" height="20"><a class="poll" href="detail.php?number=684757&amp;thread=10r03">야쿠르트아줌마 월 평균 매출이 750..</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top:5px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="220">
+<tr>
+<td width="10">·</td>
+<td class="poll" height="20"><a class="poll" href="detail.php?number=683943&amp;thread=09r02">상주 '글로벌사회복지연구원'개원</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top:5px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="220">
+<tr>
+<td width="10">·</td>
+<td class="poll" height="20"><a class="poll" href="detail.php?number=684628&amp;thread=11r02">충북지사-도의회 첫 공식 상견례 삐..</a></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td style="padding-top:5px;" valign="top">
+<table border="0" cellpadding="0" cellspacing="0" width="220">
+<tr>
+<td width="10">·</td>
+<td class="poll" height="20"><a class="poll" href="detail.php?number=684078&amp;thread=11r02">박근혜 대통령, 與 전당대회 참석.....</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<!--// 많이 본 뉴스 [END] //-->
+<div style="margin-top:8px;"></div>
+<table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 0 0;" width="220">
+<tr><td><!-- real07 --><iframe align="center" frameborder="0" height="220" hspace="0" marginheight="0" marginwidth="0" noresize="" scrolling="no" src="http://anewsa.com/_ad/real/real_07.html" vspace="0" width="220"></iframe>
+</td></tr>
+</table>
+<table border="0" cellpadding="0" cellspacing="0" style="margin:7 0 0 0;" width="220">
+<tr><td><!-- real06 --><iframe align="center" frameborder="0" height="173" hspace="0" marginheight="0" marginwidth="0" noresize="" scrolling="no" src="http://anewsa.com/_ad/real/real_06.html" vspace="0" width="220"></iframe>
+</td></tr>
+</table>
+<div style="margin-top:8px;"></div>
+<!-- real_04 -->
+<script src="http://hcimg.realclick.co.kr/media/jquery-1.6.2.min.js" type="text/javascript"></script>
+<script type="text/javascript">
+var tst_freq = 9; //프리퀀시
+
+</script>
+<script charset="euc-kr" src="http://click.realclick.co.kr/ad_tpl/toast.rc?dsn=1&amp;mcode=YW5ld3NhNw==" type="text/javascript"></script>
+<!--
+<object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=6,0,29,0" width="220" height="147" vspace="0" hspace="0">
+                                        <param name="movie" value="../_ad/monotata.swf">
+                                        <param name="play" value="true">
+										<param name="wmode" value="transparent" />
+                                        <param name="loop" value="true">
+                                        <param name="quality" value="high">
+<embed width="220" height="147" src="../_ad/monotata.swf" play="true" loop="true" quality="high" pluginspage="http://www.macromedia.com/shockwave/download/index.cgi?P1_Prod_Version=ShockwaveFlash"></object>  
+-->
+<!-- 		<div style="margin-top:7px;"></div>  -->
+<!-- 		<div style="margin-top:7px;"></div>
+		<div style="margin-top:7px;"></div>
+		<div style="margin-top:7px;"></div> -->
+<!-- 
+		<table width="220" cellspacing="0" cellpadding="0">
+			<tr><td><iframe src="http://ad.linkprice.com/stlink.php?m=99flower&a=A100466908&width=250&height=250&target=_blank&adjwidth=220&adjheight=220" width="220" height="220" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe></td></tr>      
+			<tr><td><iframe src="http://ad.linkprice.com/stlink.php?m=payopen&a=A100466908&width=400&height=110&target=_blank&adjwidth=220&adjheight=61" width="220" height="61" frameborder="0" scrolling="no" marginwidth="0" marginheight="0"></iframe></td></tr>               
+			<tr><td></td></tr>
+			<tr><td></td></tr>
+			<tr><td></td></tr>
+		</table>
+-->
+<!--// 많이 본 포토뉴스 [START] //-->
+<table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 0 0;" width="220">
+<tr>
+<td class="sub_hit" height="26">많이 본 사진</td>
+</tr>
+<tr>
+<td align="center" height="1">
+<table bgcolor="#CCCCCC" border="0" cellpadding="0" cellspacing="0" height="1" width="220">
+<tr><td align="center" height="1"></td></tr>
+</table>
+</td>
+</tr>
+<tr><td height="4"></td></tr>
+<tr>
+<td valign="top"><table border="0" cellpadding="0" cellspacing="0" width="100%"><tr><td valign="top"><table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 5 0;" width="100%">
+<tr>
+<td width="5"></td>
+<td align="center" height="60" style="margin-right:5px;" width="18">
+<a href="detail.php?number=686758&amp;thread=09r02"><img align="left" border="0" height="50" hspace="5" src="http://www.anewsa.com/news_images/2014/07/19/mark/20140719120424.jpg" vspace="5" width="65"/></a></td>
+<td height="60">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="7"></td>
+</tr>
+<tr>
+<td><a href="detail.php?number=686758&amp;thread=09r02"><font class="news_photo_title01">(카메라고발)8주연속 제천시 행정력 비웃는...</font></a></td>
+</tr>
+<tr>
+<td><a href="detail.php?number=686758&amp;thread=09r02"><font class="news_photo_comment01"></font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td valign="top"><table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 5 0;" width="100%">
+<tr>
+<td width="5"></td>
+<td align="center" height="60" style="margin-right:5px;" width="18">
+<a href="detail.php?number=686210&amp;thread=09r02"><img align="left" border="0" height="50" hspace="5" src="http://www.anewsa.com/news_images/2014/07/17/mark/20140717233815.jpg" vspace="5" width="65"/></a></td>
+<td height="60">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="7"></td>
+</tr>
+<tr>
+<td><a href="detail.php?number=686210&amp;thread=09r02"><font class="news_photo_title01">김승수 전주시장, 전주한옥마을 최명희문화...</font></a></td>
+</tr>
+<tr>
+<td><a href="detail.php?number=686210&amp;thread=09r02"><font class="news_photo_comment01"></font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td></tr>
+<tr><td valign="top"><table border="0" cellpadding="0" cellspacing="0" style="margin:0 0 5 0;" width="100%">
+<tr>
+<td width="5"></td>
+<td align="center" height="60" style="margin-right:5px;" width="18">
+<a href="detail.php?number=686181&amp;thread=09r02"><img align="left" border="0" height="50" hspace="5" src="http://www.anewsa.com/news_images/2014/07/17/mark/20140717212638.jpg" vspace="5" width="65"/></a></td>
+<td height="60">
+<table border="0" cellpadding="0" cellspacing="0" width="100%">
+<tr>
+<td height="7"></td>
+</tr>
+<tr>
+<td><a href="detail.php?number=686181&amp;thread=09r02"><font class="news_photo_title01">울진署 죽변중고서 '학교폭력예방 3GO'캠페...</font></a></td>
+</tr>
+<tr>
+<td><a href="detail.php?number=686181&amp;thread=09r02"><font class="news_photo_comment01"></font></a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</td>
+</tr>
+</table>
+<div style="margin-top:7px;"><!-- 더블엠 --><iframe frameborder="0" height="370" scrolling="no" src="http://ad.about.co.kr/mad/html/anewsa/right_bottom4/shopbox" width="220"></iframe>
+<!-- 이전연동       
+        <iframe src="http://sba.about.co.kr/sbaExpose.aspx?eType=sba010&channelid=M019032001" scrolling="no" frameborder="0" width="220" height="370"></iframe> -->
+</div>
+<div style="margin-top:8px;"><a href="http://www.sheratonincheon.com/" target="_blank"><img border="0" height="148" src="../_ad2014/joker-in.jpg" width="220"/></a></div>
+<div style="margin-top:8px;"><a href="http://www.haesoliacc.co.kr/06member/member01.asp" target="_blank"><img border="0" height="81" src="../_ad2014/20140717_h.gif" width="220"/></a></div>
+<!--// 많이 본 포토뉴스 [END] //-->
+</td>
+<!--// 본문내용: 우측 [END] ///////////////////////////////////////////////////////-->
+
+
+<!--/// 본문내용: 전체 [END] /////////////////////////////////////////////////////////////////////////////////-->
+<div style="padding:15px;"></div>
+<!-- 뉴스내용 글자크기 설정 -->
+<script language="javascript">
+<!--
+document.all.ct.style.fontSize=14;
+document.all.ct.style.lineHeight=1.6;
+function changesize(flag){
+obj = document.all.ct.style.fontSize;
+num = eval(obj.substring(0,obj.length-2)*1);
+if(!isNaN(num)){
+if(flag=='+'){
+document.all.ct.style.fontSize = eval(num + 1);
+}else{
+if(num > 1)
+document.all.ct.style.fontSize = eval(num - 1);
+else
+alert('이미 폰트의 최소 사이즈입니다.');
+}
+}
+}
+//-->
+</script>
+<br/>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="34" width="980">
+<tr>
+<td bgcolor="#14b1e7" height="2"></td>
+</tr>
+<tr>
+<td align="center" height="34">
+<span style="font-family:돋움; font-size:11px; color:#666666;">
+<a href="html_file.php?file=normal_company.html&amp;file2=default_company.html">회사소개</a> ㅣ 
+<a href="/html_file.php?file=normal_company2.html&amp;file2=default_company.html">저작권규약</a> ㅣ 
+<a href="/html_file.php?file=normal_company3.html&amp;file2=default_company.html">이용약관</a> ㅣ 
+<a href="/html_file.php?file=normal_company4.html&amp;file2=default_company.html">개인정보취급방침</a> ㅣ 
+<a href="#noemail" onclick="window.open('html_file/normal_no_email.html','popwin','top=22,left=0,width=600,height=330');">이메일무단수집거부</a> ㅣ 
+<a href="/html_file.php?file=normal_company15.html&amp;file2=default_company.html">고충처리인 제도</a> ㅣ 
+<!-- <a href='/bbs_list.php?tb=bbs_notice'>공지사항</a> ㅣ -->
+<a href="/html_file.php?file=normal_company7.html&amp;file2=default_company.html"><b>제휴/광고 문의</b></a> ㅣ 
+<a href="/html_file.php?file=normal_company9.html&amp;file2=default_company.html">기자리스트</a> ㅣ 
+<a href="/html_file.php?file=normal_company10.html&amp;file2=default_company.html">기사제보</a> ㅣ <a href="/company.php">기업회원</a>
+</span>
+</td>
+</tr>
+<tr>
+<td bgcolor="#2d2d2d" height="2"></td>
+</tr>
+</table>
+<table align="center" border="0" cellpadding="0" cellspacing="0" height="38" width="980">
+<tr>
+<td width="100"><a href="/asianews_rss.php" target="_blank"><img border="0" src="/image/top_rss.gif"/></a></td>
+<td align="center"><span style="font-family:굴림; font-size:12px; color:#999999;">Copyright ⓒ ㈜아시아뉴스통신 All rights reserved.</span></td>
+<td align="right" width="100"><a href="/newsman.php"><img border="0" src="/image/btn_addnews.gif"/></a></td>
+</tr>
+</table>
+<!-- 하단부분: 전체 [END] -->
+<br/>
+<div class="banner_1024_1024_1392802586" style="text-align:center;clear:both"><span id="realclick_view2_1392802586"></span><script src="http://mdimg.realclick.co.kr/js/jquery-1.6.2.min.js"></script><script type="text/javascript">var rcBody=""; var bOffset=0; function rc_ad_display(posi){var rcAdStr="";try{if(rcHead!="")rcAdStr+=rcHead;if(rcBody!="")rcAdStr+=rcBody;if(rcFoot!="")rcAdStr+=rcFoot;if(rcAdStr!=""){document.getElementById(posi).innerHTML=rcAdStr;}}catch(e){}}function loadJS(url,posi,charset){var hd=document.getElementsByTagName('head')[0];var sc=document.createElement('script');sc.type='text/javascript';if(charset!=null){sc.charset="euc-kr";}var ld=false;sc.onreadystatechange=function(){try{if(this.readyState=='loaded'||this.readyState=='complete'){if(ld)return;ld=true;rc_ad_display(posi);}}catch(e){}};sc.onload=function(){rc_ad_display(posi);};sc.src=url;hd.appendChild(sc);}function load_rc_ad2(sevn,objf,posi){var adSrc="http://"+sevn+".realclick.co.kr/"+objf;loadJS(adSrc,posi,'euc-kr');}
+$(document).ready(function(){ var open_height2=$('#realclick_view2_1392802586').offset().top-50; var open=false; $(window).scroll(function(){ if(rcBody !="") { open_height2=$('#realclick_view2_1392802586').offset().top; } var distanceTop=open_height2-$(window).height(); if($(window).scrollTop()>=distanceTop){ if(open=="0"){open=true;load_rc_ad2('adv','ad_tpl/headcopy.rc?dsn=1&mcode=ZnNjcl9hbmV3c2Ex','realclick_view2_1392802586');var position = $(".banner_1024_1024_1392802586").offset();$( 'html, body' ).delay(1000).animate( { scrollTop: position.top-bOffset }, 2000 );}}})});</script></div>
+<p></p>
+
+
+
+<script src="js/AtCounter.js.php?sid=njle31je98cnlqioc7hnr2pm85&amp;new=Y&amp;referer=" type="text/javascript"></script>

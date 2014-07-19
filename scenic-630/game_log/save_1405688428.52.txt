@@ -1,0 +1,5 @@
+Answer: ['6', '3', '5', '1']
+Your Input: 6351
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.

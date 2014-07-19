@@ -2,19 +2,15 @@
 import random
 import os
 import time
-if not os.path.exists("game_log"):
-	os.mkdir("game_log")
+#os.mkdir("baseball_save")
 print "Game start!"
 start = True
 save_list = []
-stage = 1
+save_num = 0
+try_cnt = 0
+ball_cnt = 0
+strike_cnt = 0
 while (start == True):
-	stage_save = "Stage: "+str(stage)
-	print stage_save
-	save_list.append(stage_save +"\n")
-	try_cnt = 0
-	ball_cnt = 0
-	strike_cnt = 0
 	basenum = ["","","",""]
 	basenum[0] = str(random.randrange(0,10,1))
 	basenum[1] = basenum[0]
@@ -37,7 +33,7 @@ while (start == True):
 		while (num.isdigit() == False):
 			print "error"
 			num = raw_input("enter [4 digit numbers] : ")
-		#print num
+		print num
 		num_list = list(num)
 		# print num_list
 		num_list_set = list(set(num_list))
@@ -73,38 +69,35 @@ while (start == True):
 			print "Ding Dang Dong"
 			ding = "Ding Dang Dong"
 			save_list.append(ding+"\n")
-			save_list.append(try_count+"\n"+"\n")
+			save_list.append(try_count+"\n")
 			
 
 			again = raw_input("Play again [yes/no] : ")
 			while (again != "yes" and again != "no"):
-				again = raw_input("error. [yes/no] : ")
+				again = raw_input("error. [yes/no]:")
 
 			if (again == "yes"):
 				start = True
-				stage += 1
 			elif (again == "no"):
-				start = False
 				break
+	save = raw_input("Do you want to save? [yes/no] : ")
+	while (save != "yes" and save != "no"):
+		save = raw_input("error. [yes/no]:")
 
-save = raw_input("Do you want to save? [yes/no] : ")
-while (save != "yes" and save != "no"):
-	save = raw_input("error. [yes/no]:")
-
-if (save == "yes"):
-	ts = time.time()
-	with file("game_log" + "/" +"save_%s.txt" %ts, "w") as my_file:
-		for item in save_list:
-			my_file.write(item)
-	print "Saved"
-	print "Bye"
-	
+	if (save == "yes"):
+		ts = time.time()
+		with file("baseball_save" + "/" +"save_%s.txt" %ts, "w") as my_file:
+			for item in save_list:
+				my_file.write(item)
+		print "Saved"
+		print "Bye"
+		break
 					# print save_list
 
-else:
-	print "Not Saved"
-	print "Bye"
-	
+	else:
+		print "Not Saved"
+		print "Bye"
+		break
 
 
 #print basenum

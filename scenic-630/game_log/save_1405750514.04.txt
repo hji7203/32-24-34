@@ -1,0 +1,12 @@
+Stage: 1
+Answer: ['6', '8', '5', '2']
+Your Input: 6852
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.
+Stage: 2
+Answer: ['6', '4', '2', '3']
+Your Input: 6423
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.

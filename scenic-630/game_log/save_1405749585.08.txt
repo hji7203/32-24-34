@@ -1,0 +1,5 @@
+Stage 1Answer: ['5', '9', '8', '2']
+Your Input: 5982
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.

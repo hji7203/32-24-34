@@ -1,0 +1,14 @@
+Stage: 1
+Answer: ['0', '1', '4', '8']
+Your Input: 0148
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.
+
+Stage: 2
+Answer: ['8', '3', '7', '0']
+Your Input: 8370
+4S 0B
+Ding Dang Dong
+You did 1 times to correct answer.
+
