@@ -1,5 +1,0 @@
-Answer: ['1', '6', '9', '2']
-Your Input: 1692
-4S 0B
-Ding Ding Dang
-You did 1 times to correct answer.
